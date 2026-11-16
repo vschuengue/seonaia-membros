@@ -56,7 +56,7 @@ Este capítulo é a sua lista de conferência final. Ao personalizar os textos, 
 - [ ] Referência a cargos públicos que você exerce ou exerceu como forma de atrair clientes
 - [ ] Anúncio sem o nome e o número da OAB (e da sociedade, se houver)
 
-## Também vale pra todos: LGPD e privacidade
+## Também vale para todos: LGPD e privacidade
 
 - [ ] Formulário de contato sem aviso de como os dados serão usados
 - [ ] Site sem política de privacidade (se coleta dados por formulário)
@@ -64,7 +64,7 @@ Este capítulo é a sua lista de conferência final. Ao personalizar os textos, 
 
 ## Teste rápido de 30 segundos
 
-Antes de publicar qualquer frase que te deixe em dúvida, faça três perguntas:
+Antes de publicar qualquer frase que deixe você em dúvida, faça três perguntas:
 
 1. **Essa frase informa ou vende?** Se vende, reescreva.
 2. **Ela promete algo que eu não posso garantir?** Se sim, reescreva.

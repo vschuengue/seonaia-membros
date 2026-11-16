@@ -18,7 +18,7 @@ export const PRODUCTS: Product[] = [
     caktoId: "5ad08ec9-b488-4680-98a3-99b7eb825f11",
     nome: "SEO+GEO para Profissionais Liberais",
     nomeCurto: "SEO+GEO",
-    subtitulo: "Site pronto pro Google e pras IAs em 7 dias",
+    subtitulo: "Site pronto para o Google e para as IAs em 7 dias",
     cor: "#b57bff",
   },
   {
@@ -34,9 +34,9 @@ export const PRODUCTS: Product[] = [
     slug: "paginas",
     capa: "/capas/paginas.png",
     caktoId: "25266e55-ec72-4de5-b864-c1243dfbc1a6",
-    nome: "Páginas Prontas p/ Dentista, Psicólogo e Advogado",
+    nome: "Páginas Prontas para Dentista, Psicólogo e Advogado",
     nomeCurto: "Páginas Prontas",
-    subtitulo: "Textos prontos pra copiar e colar hoje",
+    subtitulo: "Textos prontos para copiar e colar hoje",
     cor: "#a78bfa",
   },
 ];

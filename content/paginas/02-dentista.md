@@ -1,6 +1,6 @@
 # Dentista: páginas prontas
 
-Aqui estão os textos completos pra site de dentista ou clínica odontológica: **Home, Sobre, Contato, 5 páginas de especialidade e 20 perguntas frequentes**.
+Aqui estão os textos completos para site de dentista ou clínica odontológica: **Home, Sobre, Contato, 5 páginas de especialidade e 20 perguntas frequentes**.
 
 > **Regra do CFO que muda o texto:** só use a palavra **"especialista"** ou **"especialidade"** se você tem o título dessa especialidade **registrado no CRO**. Se você atende a área, mas não é especialista registrado, troque por "atendimento em [área]" ou "tratamentos de [área]". Os modelos abaixo usam a forma neutra, com a opção de especialista indicada entre colchetes.
 
@@ -24,7 +24,7 @@ Meta descrição: Atendimento odontológico em [bairro], [Cidade]: [tratamento 1
 
 ## Como funciona a primeira consulta
 
-Na primeira consulta fazemos uma avaliação completa: conversa sobre o seu histórico e o que te trouxe, exame clínico e, quando necessário, pedido de exames de imagem. Ao final, você recebe a explicação do que foi encontrado e das opções de tratamento, para decidir com tranquilidade.
+Na primeira consulta fazemos uma avaliação completa: conversa sobre o seu histórico e o motivo da sua visita, exame clínico e, quando necessário, pedido de exames de imagem. Ao final, você recebe a explicação do que foi encontrado e das opções de tratamento, para decidir com tranquilidade.
 
 ## Onde estamos
 
@@ -224,7 +224,7 @@ A ortodontia é a área da odontologia que corrige a posição dos dentes e a re
 
 ## Como funciona
 
-1. **Avaliação:** exame clínico e conversa sobre o que te incomoda.
+1. **Avaliação:** exame clínico e conversa sobre o que incomoda você.
 2. **Documentação ortodôntica:** radiografias, fotografias e escaneamento ou moldagem.
 3. **Planejamento:** escolha do tipo de aparelho e estimativa de duração.
 4. **Instalação:** colocação do aparelho fixo ou entrega dos primeiros alinhadores.
@@ -361,7 +361,7 @@ Pelo [telefone/WhatsApp] ou [e-mail]. Atendemos em [endereço completo].
 
 ## 20 perguntas frequentes para a página geral de dúvidas
 
-Algumas já aparecem nas páginas de especialidade. Na página geral, use as que valem pra todos os pacientes.
+Algumas já aparecem nas páginas de especialidade. Na página geral, use as que valem para todos os pacientes.
 
 ```copiar Dentista · 20 perguntas frequentes
 **1. Como agendar uma consulta?**
@@ -431,6 +431,6 @@ Na maioria dos casos, sim. A causa mais comum está na própria boca (placa, gen
 - [ ] Personalizei e publiquei a página Sobre
 - [ ] Personalizei e publiquei a página Contato
 - [ ] Ajustei "especialista" para "atendimento em" onde não tenho título registrado no CRO
-- [ ] Publiquei as páginas de especialidade que fazem sentido pra mim
+- [ ] Publiquei as páginas de especialidade que fazem sentido para mim
 - [ ] Publiquei a página geral com as 20 perguntas frequentes
 - [ ] Procurei por "[" em todas as páginas e não sobrou nenhum campo sem preencher

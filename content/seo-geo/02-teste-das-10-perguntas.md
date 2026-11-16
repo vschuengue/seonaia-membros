@@ -2,12 +2,12 @@
 
 Antes de mexer em qualquer coisa, você precisa de uma **fotografia do ponto de partida**. Sem isso, daqui a três meses você não vai saber se melhorou. Este teste leva cerca de 40 minutos e você vai repeti-lo uma vez por mês (o capítulo 8 mostra como).
 
-A lógica é simples: você faz as mesmas 10 perguntas pra duas IAs (ChatGPT e Gemini) e, se puder, pra uma terceira (Perplexity). Depois, dá uma nota de 0 a 3 pra cada resposta. A soma vira sua **pontuação de visibilidade em IA**, de 0 a 30 por IA.
+A lógica é simples: você faz as mesmas 10 perguntas para duas IAs (ChatGPT e Gemini) e, se puder, para uma terceira (Perplexity). Depois, dá uma nota de 0 a 3 para cada resposta. A soma vira sua **pontuação de visibilidade em IA**, de 0 a 30 por IA.
 
-## Antes de começar: 4 cuidados pra o teste ser justo
+## Antes de começar: 4 cuidados para o teste ser justo
 
 1. **Use uma janela anônima** do navegador, ou saia da sua conta. Se a IA já conversou com você, ela pode "lembrar" do seu nome e distorcer o resultado.
-2. **Comece uma conversa nova pra cada pergunta.** Se fizer as 10 perguntas na mesma conversa, a primeira resposta influencia as seguintes.
+2. **Comece uma conversa nova para cada pergunta.** Se fizer as 10 perguntas na mesma conversa, a primeira resposta influencia as seguintes.
 3. **Não escreva seu nome nas perguntas 1 a 6.** O objetivo é ver se a IA chega até você sozinha, como faria um paciente ou cliente.
 4. **Copie as respostas** numa planilha ou documento. Você vai querer comparar depois.
 
@@ -15,7 +15,7 @@ A lógica é simples: você faz as mesmas 10 perguntas pra duas IAs (ChatGPT e G
 
 Substitua o que estiver entre colchetes. Use a especialidade e a cidade exatas que você quer que as pessoas associem a você.
 
-### Bloco A: Descoberta (a IA te encontra sem saber seu nome?)
+### Bloco A: Descoberta (a IA encontra você sem saber seu nome?)
 
 ```prompt Pergunta 1: indicação direta
 Quais são os melhores [sua profissão, ex.: psicólogos] em [sua cidade] que atendem [sua especialidade, ex.: ansiedade]? Me indique nomes.
@@ -61,7 +61,7 @@ Como entrar em contato com [seu nome ou nome da clínica/escritório] e qual o e
 
 ## Como dar a nota de cada resposta
 
-Use esta régua, sempre igual, pra cada uma das 10 respostas:
+Use esta régua, sempre igual, para cada uma das 10 respostas:
 
 | Nota | Bloco A (perguntas 1 a 6) | Bloco B (perguntas 7 a 10) |
 |---|---|---|
@@ -70,14 +70,14 @@ Use esta régua, sempre igual, pra cada uma das 10 respostas:
 | **2** | Você aparece corretamente, entre vários nomes | Responde corretamente, mas de forma vaga ou incompleta |
 | **3** | Você aparece entre os primeiros, com descrição correta, ou seu site é citado como fonte | Responde de forma completa e correta, e cita seu site ou seu perfil |
 
-> **Atenção à nota 1.** Informação errada é pior do que não aparecer, porque leva o paciente pra um endereço ou telefone antigo. Se você encontrar algo assim, anote **de onde** a IA tirou o dado (às vezes ela mostra a fonte). Quase sempre é um diretório antigo, um perfil abandonado ou um site desatualizado. Corrigir essa fonte entra na sua lista de tarefas do capítulo 4.
+> **Atenção à nota 1.** Informação errada é pior do que não aparecer, porque leva o paciente para um endereço ou telefone antigo. Se você encontrar algo assim, anote **de onde** a IA tirou o dado (às vezes ela mostra a fonte). Quase sempre é um diretório antigo, um perfil abandonado ou um site desatualizado. Corrigir essa fonte entra na sua lista de tarefas do capítulo 4.
 
 ## Modelo de planilha
 
 Crie uma planilha com estas colunas. Uma linha por pergunta, uma aba por mês.
 
 ```copiar Cabeçalho da planilha de pontuação
-Mês	Pergunta	ChatGPT (0-3)	Gemini (0-3)	Perplexity (0-3)	Fonte citada pela IA	Erro encontrado	Ação pra corrigir
+Mês	Pergunta	ChatGPT (0-3)	Gemini (0-3)	Perplexity (0-3)	Fonte citada pela IA	Erro encontrado	Ação para corrigir
 ```
 
 No fim da aba, some as colunas. Você terá três números (um por IA), cada um de 0 a 30.
@@ -86,14 +86,14 @@ No fim da aba, some as colunas. Você terá três números (um por IA), cada um 
 
 | Pontuação (por IA) | O que significa | Onde focar primeiro |
 |---|---|---|
-| **0 a 6** | Você praticamente não existe pras IAs. É o cenário mais comum e o com mais espaço pra crescer | Capítulos 4 (checklist) e 6 (schema). Base técnica primeiro |
-| **7 a 15** | A IA sabe que você existe, mas não te recomenda | Capítulo 5 (páginas de serviço) e capítulo 7 (conteúdo). Falta autoridade no assunto |
+| **0 a 6** | Você praticamente não existe para as IAs. É o cenário mais comum e o com mais espaço para crescer | Capítulos 4 (checklist) e 6 (schema). Base técnica primeiro |
+| **7 a 15** | A IA sabe que você existe, mas não recomenda você | Capítulo 5 (páginas de serviço) e capítulo 7 (conteúdo). Falta autoridade no assunto |
 | **16 a 24** | Boa presença. Você aparece, mas não sempre nem em primeiro | Capítulo 7. Conteúdo constante e menções em outros sites |
 | **25 a 30** | Excelente. Seu trabalho agora é manter | Capítulo 8. Monitoramento e atualização |
 
 Um padrão bem comum: **nota razoável no Bloco B e quase zero no Bloco A**. Isso quer dizer que, quando alguém pergunta seu nome, a IA acha. Mas, quando a pessoa pergunta pelo problema, ela indica outros. É exatamente o que os capítulos 5 e 7 resolvem.
 
-## Um prompt extra: peça o diagnóstico pra própria IA
+## Um prompt extra: peça o diagnóstico à própria IA
 
 Depois de dar as notas, abra uma conversa nova e use este prompt. Ele não substitui o teste, mas costuma revelar pontos cegos.
 
@@ -104,18 +104,18 @@ Analise o que você consegue encontrar sobre mim e responda:
 1. O que você sabe sobre mim e de quais fontes tirou isso?
 2. Quais informações estão faltando, confusas ou contraditórias?
 3. Se um paciente/cliente pedisse uma indicação de [profissão + especialidade] em [cidade], por que você não me indicaria hoje?
-4. Liste as 5 mudanças mais importantes pra eu passar a ser uma fonte confiável pra você.
+4. Liste as 5 mudanças mais importantes para eu passar a ser uma fonte confiável para você.
 Seja direto e específico. Não invente informações sobre mim: se não souber, diga que não sabe.
 ```
 
-> **Por que pedir pra ela não inventar:** IAs às vezes "preenchem lacunas" com dados plausíveis e falsos. Se a resposta trouxer algo que você nunca publicou, ignore e anote como erro.
+> **Por que pedir que ela não invente:** IAs às vezes "preenchem lacunas" com dados plausíveis e falsos. Se a resposta trouxer algo que você nunca publicou, ignore e anote como erro.
 
 ## Checklist do capítulo
 
 - [ ] Abri uma janela anônima e fiz as 10 perguntas no ChatGPT, cada uma em conversa nova
 - [ ] Fiz as mesmas 10 perguntas no Gemini
 - [ ] (Opcional) Fiz as mesmas 10 perguntas no Perplexity
-- [ ] Dei nota de 0 a 3 pra cada resposta usando a régua
+- [ ] Dei nota de 0 a 3 para cada resposta usando a régua
 - [ ] Criei a planilha com a aba do mês atual e somei a pontuação de cada IA
 - [ ] Anotei todo dado errado que encontrei e de onde ele veio
 - [ ] Rodei o prompt de diagnóstico e salvei a resposta

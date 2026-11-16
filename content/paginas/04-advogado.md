@@ -1,6 +1,6 @@
 # Advogado(a): páginas prontas
 
-Aqui estão os textos completos pra site de advogado(a) ou escritório de advocacia: **Home, Sobre, Contato, 5 páginas de área de atuação e 20 perguntas frequentes**.
+Aqui estão os textos completos para site de advogado(a) ou escritório de advocacia: **Home, Sobre, Contato, 5 páginas de área de atuação e 20 perguntas frequentes**.
 
 > **Três cuidados específicos da advocacia (Código de Ética da OAB e Provimento 205/2021):**
 > 1. **Conteúdo informativo, nunca captação.** Nada de "ganhe sua causa", "ligue já", "consulta gratuita" ou chamadas mercantis.

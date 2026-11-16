@@ -44,7 +44,7 @@ O **H1** é o título visível no topo da página, aquele em letras maiores. Cad
 - No Screaming Frog: aba **H1**, filtros **Missing** (ausente) e **Multiple** (vários).
 - Sem Screaming Frog: no Chrome, clique com o botão direito no título da página → **Inspecionar**. A linha destacada deve começar com `<h1`.
 
-**Por que importa:** o H1 é o "título do capítulo" pra quem lê e pra quem indexa. Sem ele, ou com vários, o assunto da página fica difuso. Um problema comum em sites com construtores visuais: o logotipo, ou um "Bem-vindo!", é o H1, e o título real está como texto comum.
+**Por que importa:** o H1 é o "título do capítulo" para quem lê e para quem indexa. Sem ele, ou com vários, o assunto da página fica difuso. Um problema comum em sites com construtores visuais: o logotipo, ou um "Bem-vindo!", é o H1, e o título real está como texto comum.
 
 **Como corrigir:** no editor, selecione o título principal de cada página e defina como **Título 1 (H1)**. Os subtítulos internos devem ser **Título 2 (H2)** e **Título 3 (H3)**. O H1 deve seguir a lógica do título SEO: "Implante dentário em Campinas", e não "Bem-vindo".
 
@@ -55,21 +55,21 @@ O **H1** é o título visível no topo da página, aquele em letras maiores. Cad
 - No Screaming Frog: na coluna **Word Count** da aba **Internal**, ordene do menor para o maior. Páginas de serviço com menos de **300 palavras** são suspeitas.
 - No Search Console: páginas com o motivo **"Rastreada, mas não indexada"** quase sempre são rasas.
 
-**Por que importa:** uma página de serviço com três linhas ("Fazemos implantes com qualidade e carinho. Agende!") não responde nada. O Google não vê motivo pra mostrá-la, e a IA não tem o que citar.
+**Por que importa:** uma página de serviço com três linhas ("Fazemos implantes com qualidade e carinho. Agende!") não responde nada. O Google não vê motivo para mostrá-la, e a IA não tem o que citar.
 
-**Como corrigir:** amplie cada página de serviço pra **500 a 1.000 palavras**, cobrindo: o que é, pra quem é indicado, como funciona, quanto tempo leva, por que com você, perguntas frequentes e como agendar. Se você tem o guia principal (SEO+GEO), o capítulo 5 tem o modelo completo. Se levou o guia **Páginas Prontas**, use os textos dele.
+**Como corrigir:** amplie cada página de serviço para **500 a 1.000 palavras**, cobrindo: o que é, para quem é indicado, como funciona, quanto tempo leva, por que com você, perguntas frequentes e como agendar. Se você tem o guia principal (SEO+GEO), o capítulo 5 tem o modelo completo. Se levou o guia **Páginas Prontas**, use os textos dele.
 
 ## Erro 14: Não existe uma página por serviço
 
-**Como identificar:** olhe o menu do seu site. Existe uma página **"Serviços"** ou **"Áreas de atuação"** com todos os serviços listados numa página só, sem páginas próprias pra cada um?
+**Como identificar:** olhe o menu do seu site. Existe uma página **"Serviços"** ou **"Áreas de atuação"** com todos os serviços listados numa página só, sem páginas próprias para cada um?
 
-**Por que importa:** é o erro estrutural mais comum em site de profissional liberal, e o que mais custa visibilidade. Uma página que fala de dez assuntos não disputa nenhum deles. Quando alguém busca (ou pergunta pra IA) sobre um serviço específico na sua cidade, quem tem uma página dedicada tem muito mais chance de aparecer.
+**Por que importa:** é o erro estrutural mais comum em site de profissional liberal, e o que mais custa visibilidade. Uma página que fala de dez assuntos não disputa nenhum deles. Quando alguém busca (ou pergunta à IA) sobre um serviço específico na sua cidade, quem tem uma página dedicada tem muito mais chance de aparecer.
 
 **Como corrigir**
 
 1. Liste seus serviços e escolha os **3 a 5 mais importantes**.
-2. Crie uma página pra cada um, com título "[Serviço] em [Cidade]" e endereço curto (ex.: `/implante-dentario`).
-3. Transforme a página "Serviços" num **índice**: um parágrafo curto pra cada serviço, com link pra página dele.
+2. Crie uma página para cada um, com título "[Serviço] em [Cidade]" e endereço curto (ex.: `/implante-dentario`).
+3. Transforme a página "Serviços" num **índice**: um parágrafo curto para cada serviço, com link para a página dele.
 4. Coloque as páginas novas no menu.
 
 ## Erro 15: Nome, endereço e telefone inconsistentes (e Perfil da Empresa desatualizado)
@@ -78,7 +78,7 @@ O **H1** é o título visível no topo da página, aquele em letras maiores. Cad
 
 1. Anote como seu nome, endereço e telefone aparecem no **rodapé do site**.
 2. Compare, caractere por caractere, com o **Perfil da Empresa no Google**, o **Instagram**, o **Facebook** e os diretórios onde você aparece (Doctoralia, JusBrasil, guias locais).
-3. Busque seu telefone antigo e seu endereço antigo no Google, entre aspas, pra achar cadastros esquecidos.
+3. Busque seu telefone antigo e seu endereço antigo no Google, entre aspas, para achar cadastros esquecidos.
 
 Monte uma tabela assim:
 
@@ -92,7 +92,7 @@ Facebook
 [Diretório 2]
 ```
 
-**Por que importa:** pro Google e pras IAs, dados divergentes geram dúvida sobre qual informação é a verdadeira. E dúvida reduz a chance de você ser recomendado. Pior: a IA pode passar ao paciente o telefone errado.
+**Por que importa:** para o Google e para as IAs, dados divergentes geram dúvida sobre qual informação é a verdadeira. E dúvida reduz a chance de você ser recomendado. Pior: a IA pode passar ao paciente o telefone errado.
 
 **Como corrigir**
 
@@ -106,7 +106,7 @@ Facebook
 - [ ] Erro 11: revisei título e meta descrição de todas as páginas importantes
 - [ ] Erro 12: cada página tem um único H1 descrevendo o assunto
 - [ ] Erro 13: identifiquei as páginas com menos de 300 palavras
-- [ ] Erro 14: conferi se existe uma página própria pra cada serviço importante
+- [ ] Erro 14: conferi se existe uma página própria para cada serviço importante
 - [ ] Erro 15: montei a tabela de consistência de nome, endereço e telefone
 - [ ] Erro 15: corrigi site e Perfil da Empresa no formato oficial
 - [ ] Anotei na planilha cada erro encontrado, com as páginas afetadas

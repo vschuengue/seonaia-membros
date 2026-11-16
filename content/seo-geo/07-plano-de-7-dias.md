@@ -1,6 +1,6 @@
 # O plano de 7 dias + 90 dias de conteúdo
 
-Agora você junta tudo. Este capítulo diz **o que fazer em cada um dos 7 dias**, em blocos de 1 a 2 horas. Depois traz o **plano de conteúdo de 90 dias**, com pautas prontas pra dentista, psicólogo e advogado, que é o que transforma a estrutura pronta em resultado ao longo dos meses.
+Agora você junta tudo. Este capítulo diz **o que fazer em cada um dos 7 dias**, em blocos de 1 a 2 horas. Depois traz o **plano de conteúdo de 90 dias**, com pautas prontas para dentista, psicólogo e advogado, que é o que transforma a estrutura pronta em resultado ao longo dos meses.
 
 ## Os 7 dias
 
@@ -56,9 +56,9 @@ Os dias não precisam ser corridos. Se pular um, retome de onde parou. O importa
 
 ## O plano de 90 dias
 
-**1 conteúdo por semana, durante 12 semanas.** Cada conteúdo é um artigo de 600 a 1.200 palavras no blog do site, respondendo **uma** dúvida real. Depois, você reaproveita o mesmo conteúdo em posts pro Instagram ou LinkedIn.
+**1 conteúdo por semana, durante 12 semanas.** Cada conteúdo é um artigo de 600 a 1.200 palavras no blog do site, respondendo **uma** dúvida real. Depois, você reaproveita o mesmo conteúdo em posts para o Instagram ou LinkedIn.
 
-Por que artigo e não só post de rede social? Porque **as IAs leem o seu site muito mais do que o seu Instagram**. O post leva gente pro site; o artigo é o que vira fonte de resposta.
+Por que artigo e não só post de rede social? Porque **as IAs leem o seu site muito mais do que o seu Instagram**. O post leva gente para o site; o artigo é o que vira fonte de resposta.
 
 ### Estrutura de cada artigo
 
@@ -92,8 +92,8 @@ Este conteúdo é informativo e não substitui uma avaliação individual.
 |---|---|---|
 | 1 | Implante dentário dói? O que esperar antes, durante e depois | Implante |
 | 2 | Quanto tempo dura um implante e como cuidar dele | Implante |
-| 3 | Aparelho fixo ou alinhador transparente: diferenças e pra quem é cada um | Ortodontia |
-| 4 | Qual a idade certa pra primeira consulta da criança no dentista | Odontopediatria |
+| 3 | Aparelho fixo ou alinhador transparente: diferenças e para quem é cada um | Ortodontia |
+| 4 | Qual a idade certa para a primeira consulta da criança no dentista | Odontopediatria |
 | 5 | Clareamento dental enfraquece os dentes? Mitos e verdades | Clareamento |
 | 6 | Sangramento na gengiva: quando é sinal de alerta | Clínica geral |
 | 7 | Dente do siso: quando precisa tirar e como é a recuperação | Clínica geral |
@@ -107,14 +107,14 @@ Este conteúdo é informativo e não substitui uma avaliação individual.
 
 | Semana | Pauta (título do artigo) | Liga com a página de |
 |---|---|---|
-| 1 | Como saber se preciso de terapia: 7 sinais pra observar | Página inicial |
+| 1 | Como saber se preciso de terapia: 7 sinais para observar | Página inicial |
 | 2 | Como funciona a primeira sessão de terapia | Página inicial |
 | 3 | Terapia online funciona? O que diz a prática e o que esperar | Atendimento online |
 | 4 | Ansiedade ou estresse? Entenda a diferença | Ansiedade |
 | 5 | Crise de ansiedade: o que fazer na hora | Ansiedade |
 | 6 | Quanto tempo dura a terapia? Por que não existe resposta única | Página inicial |
 | 7 | Terapia de casal: quando procurar e como funciona | Terapia de casal |
-| 8 | Meu filho precisa de psicólogo? Sinais pra pais e responsáveis | Infantil |
+| 8 | Meu filho precisa de psicólogo? Sinais para pais e responsáveis | Infantil |
 | 9 | O que é Terapia Cognitivo-Comportamental (TCC), em linguagem simples | TCC |
 | 10 | Esgotamento no trabalho (burnout): sinais e caminhos | Ansiedade |
 | 11 | Psicólogo ou psiquiatra: qual a diferença e quando procurar cada um | Sobre |
@@ -137,7 +137,7 @@ Este conteúdo é informativo e não substitui uma avaliação individual.
 | 11 | Contrato de prestação de serviços: cláusulas que não podem faltar | Empresarial |
 | 12 | Quais documentos levar na primeira conversa com um advogado | Sobre |
 
-> **Adapte à sua especialidade.** Se você é ortodontista, troque as pautas gerais por outras de ortodontia. Use o prompt abaixo pra gerar uma lista sob medida.
+> **Adapte à sua especialidade.** Se você é ortodontista, troque as pautas gerais por outras de ortodontia. Use o prompt abaixo para gerar uma lista sob medida.
 
 ### Prompts do plano de conteúdo
 

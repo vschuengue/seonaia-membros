@@ -4,7 +4,7 @@ import { exigirMembro } from "@/lib/session";
 import { productBySlug } from "@/lib/products";
 import { GUIAS } from "@/lib/content.generated";
 
-// Valida no servidor: sessão + produto liberado pra este membro.
+// Valida no servidor: sessão + produto liberado para este membro.
 export async function exigirGuia(slug: string) {
   const produto = productBySlug(slug);
   if (!produto) notFound();

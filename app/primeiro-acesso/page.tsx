@@ -24,7 +24,7 @@ export default async function PrimeiroAcesso({
         <div className="auth-box">
           <img className="logo" src="/marca/logo-branca.png" alt="SEO na IA" width={705} height={180} />
           <h1>Pronto! Seu acesso foi gerado.</h1>
-          <p className="muted">Anote a senha abaixo. Ela aparece só agora{q.email ? " e também foi enviada pro seu e-mail" : ""}.</p>
+          <p className="muted">Anote a senha abaixo. Ela aparece só agora{q.email ? " e também foi enviada para o seu e-mail" : ""}.</p>
           <p className="senha">{senha}</p>
           <Link className="btn" href="/">Abrir meus guias</Link>
         </div>

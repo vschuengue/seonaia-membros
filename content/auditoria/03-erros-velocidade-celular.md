@@ -1,6 +1,6 @@
 # Erros 6 a 10: velocidade e experiência no celular
 
-A maioria das pessoas que procura um dentista, um psicólogo ou um advogado está no **celular**, muitas vezes com pressa ou preocupada. Site lento ou difícil de usar faz a pessoa voltar pro Google e clicar no próximo. E o Google percebe esse comportamento.
+A maioria das pessoas que procura um dentista, um psicólogo ou um advogado está no **celular**, muitas vezes com pressa ou preocupada. Site lento ou difícil de usar faz a pessoa voltar para o Google e clicar no próximo. E o Google percebe esse comportamento.
 
 ## Erro 6: Nota baixa no PageSpeed (Core Web Vitals ruins)
 
@@ -8,8 +8,8 @@ A maioria das pessoas que procura um dentista, um psicólogo ou um advogado est�
 
 | Métrica | O que mede, em português claro | Bom |
 |---|---|---|
-| **LCP** (Largest Contentful Paint) | Quanto tempo leva pra aparecer o maior elemento da tela (geralmente a foto ou o título principal) | Até 2,5 s |
-| **INP** (Interaction to Next Paint) | Quanto o site demora pra reagir quando a pessoa toca em algo | Até 200 ms |
+| **LCP** (Largest Contentful Paint) | Quanto tempo leva para aparecer o maior elemento da tela (geralmente a foto ou o título principal) | Até 2,5 s |
+| **INP** (Interaction to Next Paint) | Quanto o site demora para reagir quando a pessoa toca em algo | Até 200 ms |
 | **CLS** (Cumulative Layout Shift) | Quanto a página "pula" enquanto carrega (aquele botão que foge do dedo) | Até 0,1 |
 
 > Se aparecer a mensagem "não há dados suficientes de usuários reais", tudo bem: sites pequenos raramente têm. Use a **nota de laboratório** logo abaixo como referência.
@@ -35,11 +35,11 @@ A maioria das pessoas que procura um dentista, um psicólogo ou um advogado est�
 - **Peso:** no PageSpeed, procure "Dimensione as imagens corretamente". No Screaming Frog, aba **Images**, ordene pela coluna **Size**: imagens acima de 300 KB são suspeitas.
 - **Descrição:** no Screaming Frog, filtro **Images → Missing Alt Text**. Sem Screaming Frog: no WordPress, abra a **Biblioteca de mídia** e veja o campo "Texto alternativo" das imagens principais.
 
-**Por que importa:** imagem pesada é a causa nº 1 de site lento. E imagem sem descrição é invisível pro Google e pras IAs, além de inacessível pra quem usa leitor de tela.
+**Por que importa:** imagem pesada é a causa nº 1 de site lento. E imagem sem descrição é invisível para o Google e para as IAs, além de inacessível para quem usa leitor de tela.
 
 **Como corrigir**
 
-1. Antes de subir qualquer foto, reduza em **squoosh.app** (grátis, no navegador): largura máxima de 1.600 px pra fotos grandes e 800 px pra fotos de conteúdo, formato **WebP**, qualidade entre 70 e 80.
+1. Antes de subir qualquer foto, reduza em **squoosh.app** (grátis, no navegador): largura máxima de 1.600 px para fotos grandes e 800 px para fotos de conteúdo, formato **WebP**, qualidade entre 70 e 80.
 2. No WordPress, o plugin gratuito **Smush** ou **EWWW Image Optimizer** comprime as imagens que já estão no site.
 3. Preencha o **texto alternativo** de cada imagem importante descrevendo o que ela mostra, de forma natural:
 
@@ -50,7 +50,7 @@ Sala de atendimento do consultório de psicologia em Santos
 Recepção do escritório de advocacia em Belo Horizonte
 ```
 
-> Não encha o texto alternativo de palavras-chave ("dentista campinas implante melhor dentista"). Descreva a imagem como descreveria pra alguém que não pode vê-la.
+> Não encha o texto alternativo de palavras-chave ("dentista campinas implante melhor dentista"). Descreva a imagem como descreveria para alguém que não pode vê-la.
 
 ## Erro 8: Pop-ups e banners que cobrem a tela no celular
 
@@ -68,7 +68,7 @@ Recepção do escritório de advocacia em Belo Horizonte
 
 **Como identificar:** no celular, tente ler um parágrafo sem dar zoom e tocar no telefone e no botão de agendar com o polegar. No PageSpeed, a seção **Acessibilidade** aponta "Os tamanhos de fonte são legíveis?" e "As áreas de toque têm tamanho adequado?".
 
-**Por que importa:** se a pessoa precisa dar zoom pra ler, ou erra o botão, ela desiste. E o público de muitos consultórios inclui pessoas mais velhas.
+**Por que importa:** se a pessoa precisa dar zoom para ler, ou erra o botão, ela desiste. E o público de muitos consultórios inclui pessoas mais velhas.
 
 **Como corrigir**
 
@@ -87,17 +87,17 @@ Recepção do escritório de advocacia em Belo Horizonte
 
 **Como identificar:** no celular, percorra a página inicial e todas as páginas de serviço procurando:
 
-- texto ou imagem "vazando" pra fora da tela, criando rolagem pro lado;
+- texto ou imagem "vazando" para fora da tela, criando rolagem para o lado;
 - tabelas cortadas;
 - menu que não abre ou não fecha;
 - formulário com campos impossíveis de preencher;
 - elementos sobrepostos.
 
-Se não tiver um celular à mão, no Chrome do computador aperte **F12** e clique no ícone de celular (**Ctrl+Shift+M**) pra simular.
+Se não tiver um celular à mão, no Chrome do computador aperte **F12** e clique no ícone de celular (**Ctrl+Shift+M**) para simular.
 
-**Por que importa:** o Google usa a versão **mobile** do site como versão principal pra indexar e classificar. Se ela está quebrada, é como se o site estivesse quebrado.
+**Por que importa:** o Google usa a versão **mobile** do site como versão principal para indexar e classificar. Se ela está quebrada, é como se o site estivesse quebrado.
 
-**Como corrigir:** anote a página e o elemento com problema e tire um print. Muitos casos se resolvem no próprio editor (visão mobile do Wix, ou "responsivo" nos construtores do WordPress, como Elementor). Os demais vão pro relatório do webdesigner (capítulo 6), **com o print**: isso economiza muita troca de mensagem.
+**Como corrigir:** anote a página e o elemento com problema e tire um print. Muitos casos se resolvem no próprio editor (visão mobile do Wix, ou "responsivo" nos construtores do WordPress, como Elementor). Os demais vão para o relatório do webdesigner (capítulo 6), **com o print**: isso economiza muita troca de mensagem.
 
 ## Checklist do capítulo
 

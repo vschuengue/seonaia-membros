@@ -4,14 +4,14 @@ Este capítulo vem antes de qualquer texto que você publicar, por um motivo sim
 
 A boa notícia é que **SEO e GEO bem feitos combinam naturalmente com as regras dos conselhos**. As IAs e o Google valorizam conteúdo informativo, sóbrio, com credencial clara e sem promessa exagerada. É exatamente o que os conselhos pedem.
 
-> **Importante:** este capítulo é um guia prático de orientação, não um parecer jurídico. As normas dos conselhos são atualizadas de tempos em tempos e há particularidades nos conselhos regionais. Antes de publicar algo que te deixe em dúvida, consulte a versão vigente do seu código de ética e, se precisar, o setor de fiscalização ou a comissão de ética do seu conselho regional.
+> **Importante:** este capítulo é um guia prático de orientação, não um parecer jurídico. As normas dos conselhos são atualizadas de tempos em tempos e há particularidades nos conselhos regionais. Antes de publicar algo que deixe você em dúvida, consulte a versão vigente do seu código de ética e, se precisar, o setor de fiscalização ou a comissão de ética do seu conselho regional.
 
-## As 5 regras que valem pra todos
+## As 5 regras que valem para todos
 
 Mesmo com diferenças entre profissões, cinco princípios aparecem nos três conselhos:
 
 1. **Identifique-se sempre.** Nome profissional e número de registro (CRO, CRP ou OAB) visíveis no site, de preferência no rodapé de todas as páginas.
-2. **Informe, não venda.** O conteúdo deve esclarecer e educar. Tom de "promoção imperdível" é o caminho mais rápido pra uma representação.
+2. **Informe, não venda.** O conteúdo deve esclarecer e educar. Tom de "promoção imperdível" é o caminho mais rápido para uma representação.
 3. **Nada de garantia de resultado.** Nenhum tratamento, terapia ou processo tem resultado garantido, e prometer isso é vedado.
 4. **Nada de preço como chamariz.** Anunciar preço, desconto, "consulta grátis" ou condição especial como forma de atrair clientes é vedado ou muito restrito nos três conselhos.
 5. **Não se compare nem se diga "o melhor".** Superlativos ("o melhor dentista da cidade", "o advogado nº 1") e comparações com colegas são vedados.
@@ -26,12 +26,12 @@ Referências principais: **Código de Ética Odontológica** (Resolução CFO-11
 | Conteúdo educativo sobre tratamentos, prevenção e cuidados | Anunciar preços, descontos, parcelamentos ou serviços gratuitos como chamariz |
 | Fotos da clínica, da equipe e de equipamentos | Garantir resultado ("sorriso perfeito garantido") |
 | Imagens de casos **nas condições da resolução vigente**, com autorização por escrito do paciente | Expressões sensacionalistas ou que causem medo ("seu dente pode cair amanhã") |
-| Explicar como funciona cada procedimento e pra quem é indicado | Comparar sua técnica ou resultado com o de colegas |
+| Explicar como funciona cada procedimento e para quem é indicado | Comparar sua técnica ou resultado com o de colegas |
 
 **No site, isso se traduz em:**
 
 - Rodapé com: nome, CRO-[UF] nº, e, se for clínica, o nome e o CRO do responsável técnico.
-- Página de especialidade explicando **o que é, pra quem é indicado, como funciona e quanto tempo leva**. Sem preço, sem "promoção de clareamento".
+- Página de especialidade explicando **o que é, para quem é indicado, como funciona e quanto tempo leva**. Sem preço, sem "promoção de clareamento".
 - Antes de usar foto de antes e depois, confira as condições atuais da norma do CFO e tenha a autorização do paciente guardada. Na dúvida, não publique: o texto bem escrito já faz o trabalho de SEO e GEO.
 
 ## Psicologia (CFP)
@@ -71,7 +71,7 @@ Referências principais: **Código de Ética e Disciplina da OAB** e o **Provime
 - Páginas por área de atuação explicando **quais direitos existem, quais documentos reunir e como funciona o processo**, sem "garantimos sua indenização".
 - Botão de contato discreto e informativo ("Agende uma conversa", "Fale com o escritório") em vez de "Ganhe sua causa agora".
 
-## Por que isso também é bom pra SEO e GEO
+## Por que isso também é bom para SEO e GEO
 
 | Exigência ética | Efeito no Google e nas IAs |
 |---|---|
@@ -82,7 +82,7 @@ Referências principais: **Código de Ética e Disciplina da OAB** e o **Provime
 
 ## Prompt de revisão ética
 
-Use este prompt pra revisar **qualquer** texto antes de publicar. Ele não substitui a sua leitura nem a do conselho, mas pega a maioria dos deslizes.
+Use este prompt para revisar **qualquer** texto antes de publicar. Ele não substitui a sua leitura nem a do conselho, mas pega a maioria dos deslizes.
 
 ```prompt Revisor ético de texto
 Você é um revisor especializado nas regras de publicidade profissional do [CFO / CFP / OAB] no Brasil.
@@ -100,8 +100,8 @@ TEXTO:
 ## Checklist do capítulo
 
 - [ ] Identifiquei qual conselho se aplica a mim e anotei onde fica o código de ética atualizado
-- [ ] Coloquei (ou anotei pra colocar) nome profissional e número de registro no rodapé do site
+- [ ] Coloquei (ou anotei para colocar) nome profissional e número de registro no rodapé do site
 - [ ] Revisei o site atual e anotei qualquer preço, desconto ou "consulta grátis" usado como chamariz
 - [ ] Revisei o site atual e anotei qualquer promessa de resultado ou superlativo ("o melhor")
 - [ ] (Psicologia) Conferi se meu cadastro no e-Psi está ativo, caso eu atenda online
-- [ ] Salvei o prompt de revisão ética pra usar em todo texto novo
+- [ ] Salvei o prompt de revisão ética para usar em todo texto novo

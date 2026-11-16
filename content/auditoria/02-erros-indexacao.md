@@ -2,7 +2,7 @@
 
 Estes são os erros mais graves da lista, porque **um site que o Google não encontra não aparece em lugar nenhum**: nem na busca, nem no mapa, nem nas respostas de IA que se apoiam no Google. A boa notícia é que quase todos se resolvem em minutos.
 
-Pra cada erro você tem: **como identificar**, **por que importa** e **como corrigir**.
+Para cada erro você tem: **como identificar**, **por que importa** e **como corrigir**.
 
 ## Erro 1: Site (ou páginas importantes) fora do Google
 
@@ -22,9 +22,9 @@ Pra cada erro você tem: **como identificar**, **por que importa** e **como corr
 
 | Motivo que aparece no Search Console | O que significa | O que fazer |
 |---|---|---|
-| "Excluída pela tag 'noindex'" | A página pede pra não ser indexada | Erro 2 |
+| "Excluída pela tag 'noindex'" | A página pede que não seja indexada | Erro 2 |
 | "Bloqueada pelo robots.txt" | O arquivo robots.txt impede o acesso | Erro 3 |
-| "Página com redirecionamento" | É uma versão duplicada que leva pra outra | Normal, se for o erro 5 corrigido |
+| "Página com redirecionamento" | É uma versão duplicada que leva para outra | Normal, se for o erro 5 corrigido |
 | "Rastreada, mas não indexada" | O Google viu e achou que não vale a pena | Erro 13 (conteúdo raso) |
 | "Detectada, mas não indexada" | O Google sabe que existe, mas ainda não visitou | Solicite indexação e aguarde |
 | "Não encontrado (404)" | A página não existe mais | Erro 19 |
@@ -59,7 +59,7 @@ Pra cada erro você tem: **como identificar**, **por que importa** e **como corr
 
 - **WordPress com Yoast:** **Yoast SEO → Ferramentas → Editor de arquivos**. Com Rank Math: **Rank Math → Configurações Gerais → Editar robots.txt**.
 - **Wix:** **Configurações → SEO → Editor de robots.txt**.
-- Se não encontrar, peça ao webdesigner. Este é um robots.txt seguro pra quase todo site de consultório ou escritório:
+- Se não encontrar, peça ao webdesigner. Este é um robots.txt seguro para quase todo site de consultório ou escritório:
 
 ```copiar robots.txt seguro (WordPress)
 User-agent: *
@@ -78,7 +78,7 @@ Sitemap: https://[seudominio.com.br]/sitemap_index.xml
 1. Tente abrir `seudominio.com.br/sitemap.xml` e `seudominio.com.br/sitemap_index.xml`.
 2. No Search Console, abra **Indexação → Sitemaps** e veja se há algum sitemap enviado com status **"Sucesso"**.
 
-**Por que importa:** o sitemap é a lista oficial de páginas do seu site. Sem ele, o Google descobre suas páginas só pelos links, e páginas novas demoram mais pra aparecer.
+**Por que importa:** o sitemap é a lista oficial de páginas do seu site. Sem ele, o Google descobre suas páginas só pelos links, e páginas novas demoram mais para aparecer.
 
 **Como corrigir**
 
@@ -90,7 +90,7 @@ Sitemap: https://[seudominio.com.br]/sitemap_index.xml
 
 **Como identificar:** digite no navegador as quatro variações do seu endereço e veja onde cada uma termina.
 
-```copiar As 4 variações pra testar
+```copiar As 4 variações para testar
 http://seudominio.com.br
 http://www.seudominio.com.br
 https://seudominio.com.br
@@ -99,14 +99,14 @@ https://www.seudominio.com.br
 
 Todas as quatro devem **terminar no mesmo endereço**, com cadeado (`https`). Se alguma abre o site sem redirecionar, ou abre sem cadeado, há duplicidade.
 
-**Por que importa:** pro Google, cada variação pode ser um site diferente. A "força" do seu site fica dividida, e a IA pode encontrar dados em versões diferentes.
+**Por que importa:** para o Google, cada variação pode ser um site diferente. A "força" do seu site fica dividida, e a IA pode encontrar dados em versões diferentes.
 
 **Como corrigir**
 
-1. Peça à hospedagem pra **ativar o SSL** (certificado do cadeado), se ainda não houver. Na maioria das hospedagens é gratuito e fica no painel com o nome "SSL", "Let's Encrypt" ou "HTTPS".
+1. Peça à hospedagem que **ative o SSL** (certificado do cadeado), se ainda não houver. Na maioria das hospedagens é gratuito e fica no painel com o nome "SSL", "Let's Encrypt" ou "HTTPS".
 2. Escolha a versão oficial (com ou sem `www`, tanto faz, desde que seja uma só).
 3. **WordPress:** em **Configurações → Geral**, os campos "Endereço do WordPress" e "Endereço do site" devem estar iguais e com `https`.
-4. Peça à hospedagem ou ao webdesigner um **redirecionamento 301** de todas as outras variações pra versão oficial.
+4. Peça à hospedagem ou ao webdesigner um **redirecionamento 301** de todas as outras variações para a versão oficial.
 
 ## Checklist do capítulo
 

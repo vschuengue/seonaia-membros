@@ -1,6 +1,6 @@
 # Psicólogo(a): páginas prontas
 
-Aqui estão os textos completos pra site de psicólogo(a) ou consultório de psicologia: **Home, Sobre, Contato, 5 páginas por tema de atendimento e 20 perguntas frequentes**.
+Aqui estão os textos completos para site de psicólogo(a) ou consultório de psicologia: **Home, Sobre, Contato, 5 páginas por tema de atendimento e 20 perguntas frequentes**.
 
 > **Três cuidados específicos da psicologia:**
 > 1. **Nada de promessa de resultado** ("supere a ansiedade em X sessões"). Os textos falam de processo, não de cura.
@@ -27,7 +27,7 @@ Meta descrição: Psicoterapia para adultos [e adolescentes] em [bairro], [Cidad
 
 ## Como funciona o primeiro contato
 
-O primeiro passo é uma conversa para entender o que te trouxe e explicar como funciona o processo terapêutico. A partir daí, combinamos juntos a frequência das sessões e os próximos passos.
+O primeiro passo é uma conversa para entender o que trouxe você até aqui e explicar como funciona o processo terapêutico. A partir daí, combinamos juntos a frequência das sessões e os próximos passos.
 
 ## Onde e como atendo
 
@@ -345,7 +345,7 @@ A TCC costuma ter sessões semanais e, por ser estruturada, os objetivos são re
 ## Perguntas frequentes
 
 **A TCC é só "pensar positivo"?**
-Não. A TCC não pede para você ignorar problemas, e sim para observar seus pensamentos de forma mais realista e testar novas formas de lidar com as situações.
+Não. A TCC não pede que você ignore problemas, e sim que observe seus pensamentos de forma mais realista e teste novas formas de lidar com as situações.
 
 **Vou ter tarefas para casa?**
 Geralmente, sim. As atividades entre as sessões ajudam a aplicar no dia a dia o que foi trabalhado. Elas são combinadas com você e ajustadas à sua rotina.
@@ -366,7 +366,7 @@ Pelo [telefone/WhatsApp] ou [e-mail].
 Pelo [telefone/WhatsApp] ou [e-mail]. Combinamos um horário para uma primeira conversa.
 
 **2. Como funciona a primeira sessão?**
-É um momento para você contar o que te trouxe e para eu explicar como funciona o processo terapêutico. A partir daí, combinamos juntos a frequência e os próximos passos.
+É um momento para você contar o que trouxe você até aqui e para eu explicar como funciona o processo terapêutico. A partir daí, combinamos juntos a frequência e os próximos passos.
 
 **3. Quanto tempo dura cada sessão?**
 [50] minutos.
@@ -430,6 +430,6 @@ Sim. O atendimento online é realizado com cadastro ativo no e-Psi, do Conselho 
 - [ ] Personalizei e publiquei a página Contato, com o aviso de crise (CVV 188)
 - [ ] Ajustei "especialista" para "atuação em" onde não tenho título concedido pelo CFP
 - [ ] Confirmei que meu cadastro no e-Psi está ativo antes de divulgar o atendimento online
-- [ ] Publiquei as páginas de tema que fazem sentido pra mim
+- [ ] Publiquei as páginas de tema que fazem sentido para mim
 - [ ] Publiquei a página geral com as 20 perguntas frequentes
 - [ ] Procurei por "[" em todas as páginas e não sobrou nenhum campo sem preencher

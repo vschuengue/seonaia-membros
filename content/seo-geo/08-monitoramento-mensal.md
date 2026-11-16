@@ -27,7 +27,7 @@ No menu **Desempenho → Resultados da pesquisa**, ajuste o período para os **�
 | **Consultas** (aba "Consultas") | As buscas que levaram ao seu site | Aparecem buscas com serviço + cidade, não só seu nome |
 | **Páginas** (aba "Páginas") | Quais páginas recebem visitas | As páginas de serviço começam a aparecer |
 
-> **O sinal mais importante dos primeiros meses** é aparecerem consultas que **não incluem o seu nome**, como "terapia ansiedade santos". Isso quer dizer que pessoas que não te conheciam estão te encontrando.
+> **O sinal mais importante dos primeiros meses** é aparecerem consultas que **não incluem o seu nome**, como "terapia ansiedade santos". Isso quer dizer que pessoas que não conheciam você estão encontrando seu site.
 
 Confira também o menu **Páginas** (Indexação): se alguma página de serviço estiver como "não indexada", use a Inspeção de URL e solicite indexação.
 
@@ -42,14 +42,14 @@ No painel do Perfil, abra **Desempenho** e anote: visualizações, buscas que mo
 
 ### 5. A decisão do mês (3 minutos)
 
-Com os números à frente, escolha **uma** ação pro mês seguinte, além do conteúdo semanal:
+Com os números à frente, escolha **uma** ação para o mês seguinte, além do conteúdo semanal:
 
 | Se você notou que... | Ação do mês |
 |---|---|
 | A pontuação nas IAs não sai do lugar depois de 3 meses | Buscar 1 menção em site de terceiros (entrevista, artigo convidado, associação) |
 | Muitas impressões e poucos cliques numa página | Reescrever o título e o primeiro parágrafo dessa página |
 | Uma consulta nova aparece com frequência | Criar um artigo ou uma pergunta de FAQ só sobre ela |
-| A IA cita um concorrente pra sua especialidade | Ver o que a página dele responde que a sua não responde, e completar a sua (sem copiar) |
+| A IA cita um concorrente para a sua especialidade | Ver o que a página dele responde que a sua não responde, e completar a sua (sem copiar) |
 | Uma página não é indexada | Revisar se ela tem conteúdo próprio suficiente e pedir indexação de novo |
 
 ## Modelo da planilha de monitoramento
@@ -60,7 +60,7 @@ Crie uma aba "Painel" com uma linha por mês:
 Mês	Pontuação ChatGPT (0-30)	Pontuação Gemini (0-30)	Pontuação Perplexity (0-30)	Impressões Google	Cliques Google	Consultas sem meu nome (qtd)	Visualizações Perfil da Empresa	Ligações + rotas	Avaliações novas	Conteúdos publicados	Decisão do mês
 ```
 
-## Prompt pra analisar o mês
+## Prompt para analisar o mês
 
 ```prompt Análise mensal
 Sou [profissão] em [cidade] e acompanho minha visibilidade no Google e nas IAs.
@@ -81,13 +81,13 @@ Recapitulando o que você tem agora:
 - Páginas de serviço no formato que as IAs citam.
 - FAQ e schema dizendo às máquinas exatamente quem você é.
 - 12 semanas de conteúdo planejadas.
-- Uma rotina de 30 minutos por mês pra manter tudo funcionando.
+- Uma rotina de 30 minutos por mês para manter tudo funcionando.
 
 Os resultados de posição e de citação pelas IAs costumam aparecer **entre o segundo e o sexto mês** de constância. Quem mantém a rotina mensal e o conteúdo semanal é quem chega lá.
 
 ## Checklist do capítulo
 
-- [ ] Coloquei um lembrete mensal fixo na agenda pra rotina de 30 minutos
+- [ ] Coloquei um lembrete mensal fixo na agenda para a rotina de 30 minutos
 - [ ] Criei a aba "Painel" na planilha com o cabeçalho de monitoramento
 - [ ] Registrei os números do mês 1 (ponto de partida)
 - [ ] Respondi todas as avaliações do Perfil da Empresa

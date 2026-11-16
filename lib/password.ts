@@ -2,7 +2,7 @@ import "server-only";
 import bcrypt from "bcryptjs";
 import { randomInt } from "node:crypto";
 
-// Sem caracteres ambíguos (0/O, 1/l/I) pra facilitar digitar.
+// Sem caracteres ambíguos (0/O, 1/l/I) para facilitar digitar.
 const ALFABETO = "abcdefghjkmnpqrstuvwxyzABCDEFGHJKMNPQRSTUVWXYZ23456789";
 
 export function gerarSenha(tamanho = 10): string {

@@ -9,7 +9,7 @@ Os textos dos capítulos anteriores são uma base sólida, mas **o texto que fun
 O mais importante. Use em cada página antes de publicar.
 
 ```prompt Personalizar página com meus dados e meu jeito
-Vou te passar um modelo de página para o site de um(a) [dentista / psicólogo(a) / advogado(a)]. Reescreva o texto para que ele fique com a minha cara, mantendo exatamente a mesma estrutura de títulos e seções.
+Vou passar a você um modelo de página para o site de um(a) [dentista / psicólogo(a) / advogado(a)]. Reescreva o texto para que ele fique com a minha cara, mantendo exatamente a mesma estrutura de títulos e seções.
 
 Meus dados reais:
 - Nome profissional e registro: [ ]
@@ -33,7 +33,7 @@ MODELO:
 
 ## Prompt 2: Adaptar para outra cidade ou bairro
 
-Útil se você atende em mais de um endereço ou quer uma página pra cidade vizinha.
+Útil se você atende em mais de um endereço ou quer uma página para cidade vizinha.
 
 ```prompt Adaptar página para outra localidade
 Adapte a página abaixo para o atendimento em [nova cidade ou bairro], onde atendo [endereço / dias da semana / online].

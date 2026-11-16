@@ -6,14 +6,14 @@ const logo = "data:image/png;base64," + fs.readFileSync(path.join(raiz, "public/
 const capas = [
   { slug: "seo-geo", tag: "Guia principal", pill: "Guia + app", t: "94px",
     titulo: "SEO+GEO para <em>Profissionais Liberais</em>",
-    sub: "Seu site pronto pro Google e pras IAs em 7 dias de trabalho.",
+    sub: "Seu site pronto para o Google e para as IAs em 7 dias de trabalho.",
     chips: ["<b>8</b> capítulos", "Checklist de <b>30</b> itens", "Schema pronto", "Plano de <b>90</b> dias"] },
   { slug: "auditoria", tag: "Complemento", pill: "Guia + app", t: "100px",
     titulo: "Auditoria de Site <em>em 1 Dia</em>",
-    sub: "Os 20 erros que escondem seu site do Google, e como corrigir cada um.",
+    sub: "Os 20 erros que escondem seu site do Google e como corrigir cada um.",
     chips: ["<b>20</b> erros", "<b>5</b> ferramentas grátis", "Relatório pronto"] },
   { slug: "paginas", tag: "Complemento", pill: "Textos prontos + app", t: "90px",
-    titulo: "Páginas Prontas pra <em>Dentista, Psicólogo e Advogado</em>",
+    titulo: "Páginas Prontas para <em>Dentista, Psicólogo e Advogado</em>",
     sub: "Copie, adapte e cole hoje os textos do seu site.",
     chips: ["<b>24</b> páginas", "<b>60</b> perguntas frequentes", "<b>6</b> prompts"] },
 ];

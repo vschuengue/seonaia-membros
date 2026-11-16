@@ -7,7 +7,7 @@ import "./lp.css";
 const fonte = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["500", "700", "800"], display: "swap" });
 
 const SITE = (process.env.SITE_URL || "https://seonaia.com.br").replace(/\/$/, "");
-const TITULO = "SEO+GEO para Profissionais Liberais: seu site pronto pro Google e pras IAs";
+const TITULO = "SEO+GEO para Profissionais Liberais: seu site pronto para o Google e para as IAs";
 const DESCRICAO =
   "Guia prático com app, modelos e checklists para dentistas, psicólogos e advogados deixarem o site pronto para ser encontrado no Google e lido pelo ChatGPT e pelo Gemini em 7 dias de trabalho.";
 
@@ -32,20 +32,20 @@ const CAPITULOS = [
   ["O teste das 10 perguntas", "Descubra se o ChatGPT e o Gemini já conhecem você, com prompts prontos e uma nota de 0 a 30."],
   ["Limites éticos do CFO, do CFP e da OAB", "O que pode e o que não pode na divulgação online da sua profissão."],
   ["O checklist SEO+GEO de 30 itens", "Base técnica, presença local, autoridade e conteúdo, item por item."],
-  ["Páginas de serviço que a IA consegue ler", "A estrutura bloco a bloco e o modelo pronto pra preencher."],
-  ["FAQ com schema", "O código que as máquinas entendem, pronto pra colar no WordPress ou no Wix."],
-  ["O plano de 7 dias + 90 dias de conteúdo", "O que fazer em cada dia e 36 pautas pra dentista, psicólogo e advogado."],
-  ["Monitoramento mensal", "A rotina de 30 minutos pra medir e ajustar todo mês."],
+  ["Páginas de serviço que a IA consegue ler", "A estrutura bloco a bloco e o modelo pronto para preencher."],
+  ["FAQ com schema", "O código que as máquinas entendem, pronto para colar no WordPress ou no Wix."],
+  ["O plano de 7 dias + 90 dias de conteúdo", "O que fazer em cada dia e 36 pautas para dentista, psicólogo e advogado."],
+  ["Monitoramento mensal", "A rotina de 30 minutos para medir e ajustar todo mês."],
 ];
 
 const FAQ = [
   ["É um curso em vídeo?", "Não. É um guia completo em texto, entregue num app fácil de navegar no celular e no computador, com modelos e prompts com botão de copiar e checklists que salvam o seu progresso. Nada de assistir horas de aula."],
   ["Em quanto tempo vou aparecer no ChatGPT?", "Ninguém pode garantir isso, e desconfie de quem garante. O que o guia faz é deixar seu site pronto em 7 dias de trabalho. A partir daí, aparecer com frequência nas respostas das IAs costuma levar de 3 a 6 meses de constância, dependendo da sua cidade e da concorrência."],
-  ["Preciso saber programar ou mexer com código?", "Não. Os modelos de código (schema) já vêm prontos pra copiar e colar, com o passo a passo pra WordPress e Wix. Se o seu site foi feito por outra pessoa, o guia mostra exatamente o que pedir a ela."],
-  ["Serve pra minha profissão?", "Foi feito pra dentistas, psicólogos e advogados, com exemplos, pautas e regras éticas de cada conselho. Outros profissionais liberais de saúde e serviços também conseguem aplicar o método, adaptando os exemplos."],
-  ["Eu nem tenho site. Serve pra mim?", "Serve. O guia mostra quais páginas criar primeiro e como estruturá-las. Você pode montar o site numa plataforma simples, como Wix ou WordPress, já no formato certo."],
+  ["Preciso saber programar ou mexer com código?", "Não. Os modelos de código (schema) já vêm prontos para copiar e colar, com o passo a passo para WordPress e Wix. Se o seu site foi feito por outra pessoa, o guia mostra exatamente o que pedir a ela."],
+  ["Serve para a minha profissão?", "Foi feito para dentistas, psicólogos e advogados, com exemplos, pautas e regras éticas de cada conselho. Outros profissionais liberais de saúde e serviços também conseguem aplicar o método, adaptando os exemplos."],
+  ["Eu nem tenho site. Serve para mim?", "Serve. O guia mostra quais páginas criar primeiro e como estruturá-las. Você pode montar o site numa plataforma simples, como Wix ou WordPress, já no formato certo."],
   ["Como recebo o acesso?", "Assim que o pagamento é aprovado, você recebe um e-mail com o link, o login e a senha do app. Pagamentos no Pix e no cartão costumam ser aprovados na hora. Se o e-mail não chegar, você gera um novo acesso na página de primeiro acesso, com o e-mail da compra e o número do pedido."],
-  ["O acesso expira?", "Não. Você pode voltar ao guia sempre que quiser, inclusive pra refazer o teste e a rotina mensal."],
+  ["O acesso expira?", "Não. Você pode voltar ao guia sempre que quiser, inclusive para refazer o teste e a rotina mensal."],
   ["E se eu não gostar?", "Você tem 7 dias de garantia incondicional. Se não gostar por qualquer motivo, pede o reembolso pela Cakto e recebe 100% do valor de volta."],
 ];
 
@@ -80,10 +80,10 @@ export default function PaginaDeVendas() {
             <div>
               <p className="lp-eyebrow">Para dentistas, psicólogos e advogados</p>
               <h1>
-                Seu paciente perguntou pro ChatGPT. <span>Ele indicou outro profissional.</span>
+                Seu paciente perguntou ao ChatGPT. <span>Ele indicou outro profissional.</span>
               </h1>
               <p className="lp-lead">
-                O guia <strong>SEO+GEO para Profissionais Liberais</strong> mostra, passo a passo, como deixar seu site pronto pra ser
+                O guia <strong>SEO+GEO para Profissionais Liberais</strong> mostra, passo a passo, como deixar seu site pronto para ser
                 encontrado no Google e lido pelas inteligências artificiais, em <strong>7 dias de trabalho</strong> e sem contratar agência.
               </p>
               <LinkCheckout className="lp-btn" posicao="TOPO">Quero o guia por R$67</LinkCheckout>
@@ -104,7 +104,7 @@ export default function PaginaDeVendas() {
             responde com <strong>nomes</strong>. Não existe segunda página.
           </p>
           <p>
-            Se o seu nome não está na resposta, você não existe pra essa pessoa. E quase nunca é falta de competência:{" "}
+            Se o seu nome não está na resposta, você não existe para essa pessoa. E quase nunca é falta de competência:{" "}
             <strong>é o seu site, que a IA não consegue ler nem confirmar.</strong>
           </p>
           <div className="lp-cards3">
@@ -123,7 +123,7 @@ export default function PaginaDeVendas() {
       <section className="lp-sec lp-escuro">
         <div className="lp-w">
           <h2>O que você recebe</h2>
-          <p className="lp-sub">8 capítulos práticos, com modelos pra copiar, prompts prontos e checklists que salvam o seu progresso.</p>
+          <p className="lp-sub">8 capítulos práticos, com modelos para copiar, prompts prontos e checklists que salvam o seu progresso.</p>
           <ol className="lp-caps">
             {CAPITULOS.map(([t, d], i) => (
               <li key={t}>
@@ -135,8 +135,8 @@ export default function PaginaDeVendas() {
           <div className="lp-numeros">
             <div><b>30</b><span>itens no checklist SEO+GEO</span></div>
             <div><b>3</b><span>modelos de schema, um por profissão</span></div>
-            <div><b>36</b><span>pautas de conteúdo pra 90 dias</span></div>
-            <div><b>10</b><span>perguntas pra testar o que a IA sabe sobre você</span></div>
+            <div><b>36</b><span>pautas de conteúdo para 90 dias</span></div>
+            <div><b>10</b><span>perguntas para testar o que a IA sabe sobre você</span></div>
           </div>
         </div>
       </section>
@@ -145,7 +145,7 @@ export default function PaginaDeVendas() {
       <section className="lp-sec">
         <div className="lp-w">
           <h2>Não é um PDF esquecido na pasta de downloads</h2>
-          <p className="lp-sub">É um app de leitura, feito pra você aplicar enquanto lê, no celular ou no computador.</p>
+          <p className="lp-sub">É um app de leitura, feito para você aplicar enquanto lê, no celular ou no computador.</p>
           <div className="lp-telas">
             <figure><img src="/lp/app-sumario.webp" alt="Sumário do guia no app" width={780} height={1328} loading="lazy" /><figcaption>Capítulos organizados e marcados conforme você lê</figcaption></figure>
             <figure><img src="/lp/app-checklist.webp" alt="Checklist interativo no app" width={780} height={1328} loading="lazy" /><figcaption>Checklists que salvam o seu progresso</figcaption></figure>
@@ -163,7 +163,7 @@ export default function PaginaDeVendas() {
             <li><b>Recebe o acesso por e-mail</b><span>Link, login e senha chegam assim que o pagamento é aprovado.</span></li>
             <li><b>Faz o teste das 10 perguntas</b><span>Em 40 minutos você descobre o que a IA sabe (ou não sabe) sobre você.</span></li>
             <li><b>Segue o plano de 7 dias</b><span>De 1 a 2 horas por dia: base técnica, Perfil da Empresa, páginas, FAQ e schema.</span></li>
-            <li><b>Mantém a rotina mensal</b><span>30 minutos por mês pra medir no Google e nas IAs e ajustar o que precisa.</span></li>
+            <li><b>Mantém a rotina mensal</b><span>30 minutos por mês para medir no Google e nas IAs e ajustar o que precisa.</span></li>
           </ol>
         </div>
       </section>
@@ -183,22 +183,22 @@ export default function PaginaDeVendas() {
         </div>
       </section>
 
-      {/* PRA QUEM É */}
+      {/* PARA QUEM É */}
       <section className="lp-sec lp-claro2">
         <div className="lp-w lp-duas">
           <div className="lp-sim">
-            <h3>É pra você se…</h3>
+            <h3>É para você se…</h3>
             <ul>
               <li>Você é dentista, psicólogo(a), advogado(a) ou outro profissional liberal</li>
-              <li>Depende quase só de indicação e quer ser encontrado por quem ainda não te conhece</li>
+              <li>Depende quase só de indicação e quer ser encontrado por quem ainda não conhece você</li>
               <li>Tem site (ou quer ter) e não sabe se ele está ajudando</li>
               <li>Quer fazer do jeito certo, dentro das regras do seu conselho</li>
             </ul>
           </div>
           <div className="lp-nao">
-            <h3>Não é pra você se…</h3>
+            <h3>Não é para você se…</h3>
             <ul>
-              <li>Procura um truque pra aparecer amanhã sem fazer nada</li>
+              <li>Procura um truque para aparecer amanhã sem fazer nada</li>
               <li>Não pode reservar 1 a 2 horas por dia durante uma semana</li>
               <li>Quer anúncios pagos: este guia é sobre presença orgânica</li>
             </ul>
@@ -212,13 +212,13 @@ export default function PaginaDeVendas() {
           <h2>Quem criou o método</h2>
           <p>
             <strong>Vanessa Soares</strong> é especialista em SEO e GEO e trabalha com estratégia de busca e criação de sites. Num projeto
-            recente, ela criou do zero o site de um escritório de contabilidade, já preparado pro Google e pras IAs.
+            recente, ela criou do zero o site de um escritório de contabilidade, já preparado para o Google e para as IAs.
           </p>
           <div className="lp-caso">
             <div><b>4 a 6 meses</b><span>até o escritório começar a ser citado nas respostas das IAs</span></div>
             <div><b>10 a 12</b><span>contatos por mês vindos do site, depois de 8 meses</span></div>
           </div>
-          <p className="lp-nota">Resultado de um caso real, que não garante o mesmo resultado pra você: cada site, cidade e área tem o seu ponto de partida. O método aplicado nesse caso é o que está no guia, adaptado pra dentistas, psicólogos e advogados.</p>
+          <p className="lp-nota">Resultado de um caso real, que não garante o mesmo resultado para você: cada site, cidade e área tem o seu ponto de partida. O método aplicado nesse caso é o que está no guia, adaptado para dentistas, psicólogos e advogados.</p>
         </div>
       </section>
 
@@ -233,8 +233,8 @@ export default function PaginaDeVendas() {
               <ul>
                 <li>8 capítulos práticos no app</li>
                 <li>Checklist SEO+GEO de 30 itens</li>
-                <li>Modelos de página e de schema pras 3 profissões</li>
-                <li>Plano de 7 dias + 36 pautas pra 90 dias</li>
+                <li>Modelos de página e de schema para as 3 profissões</li>
+                <li>Plano de 7 dias + 36 pautas para 90 dias</li>
                 <li>Prompts prontos com botão Copiar</li>
               </ul>
               <p className="lp-preco"><b>R$67</b><span>à vista no Pix ou em até 12x no cartão</span></p>
@@ -244,8 +244,8 @@ export default function PaginaDeVendas() {
           <div className="lp-comp">
             <h3>No checkout, você também pode adicionar (opcional)</h3>
             <div className="lp-comp-grid">
-              <div><img src="/capas/auditoria.webp" alt="" width={1080} height={1080} loading="lazy" /><p><b>Auditoria de Site em 1 Dia</b>Os 20 erros que escondem seu site do Google, com relatório pronto pro webdesigner.</p></div>
-              <div><img src="/capas/paginas.webp" alt="" width={1080} height={1080} loading="lazy" /><p><b>Páginas Prontas</b>Textos de Home, Sobre, Contato, 15 especialidades e 60 perguntas frequentes pra copiar e adaptar.</p></div>
+              <div><img src="/capas/auditoria.webp" alt="" width={1080} height={1080} loading="lazy" /><p><b>Auditoria de Site em 1 Dia</b>Os 20 erros que escondem seu site do Google, com relatório pronto para o webdesigner.</p></div>
+              <div><img src="/capas/paginas.webp" alt="" width={1080} height={1080} loading="lazy" /><p><b>Páginas Prontas</b>Textos de Home, Sobre, Contato, 15 especialidades e 60 perguntas frequentes para copiar e adaptar.</p></div>
             </div>
           </div>
         </div>
@@ -280,7 +280,7 @@ export default function PaginaDeVendas() {
       {/* CTA FINAL */}
       <section className="lp-final">
         <div className="lp-w lp-estreito">
-          <h2>Comece hoje. A IA leva meses pra aprender quem você é.</h2>
+          <h2>Comece hoje. A IA leva meses para aprender quem você é.</h2>
           <LinkCheckout className="lp-btn" posicao="FINAL">Quero o guia por R$67</LinkCheckout>
           <p className="lp-mini">Garantia de 7 dias · Acesso imediato · Pagamento seguro pela Cakto</p>
         </div>

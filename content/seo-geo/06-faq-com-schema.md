@@ -1,8 +1,8 @@
 # FAQ com schema: o código que as máquinas entendem
 
-Este capítulo tem duas partes. A primeira é **editorial**: como escolher e escrever perguntas frequentes que as IAs adoram citar. A segunda é **técnica**, mas com modelos prontos: como instalar o **schema**, um código invisível pro visitante que descreve você em linguagem de máquina.
+Este capítulo tem duas partes. A primeira é **editorial**: como escolher e escrever perguntas frequentes que as IAs adoram citar. A segunda é **técnica**, mas com modelos prontos: como instalar o **schema**, um código invisível para o visitante que descreve você em linguagem de máquina.
 
-Você não precisa entender programação. Precisa copiar, trocar os dados entre colchetes e colar no lugar certo. Ao final do capítulo há um passo a passo pra WordPress e pra Wix.
+Você não precisa entender programação. Precisa copiar, trocar os dados entre colchetes e colar no lugar certo. Ao final do capítulo há um passo a passo para WordPress e para Wix.
 
 ## Parte 1: Perguntas frequentes que viram resposta de IA
 
@@ -11,7 +11,7 @@ As IAs funcionam respondendo perguntas. Se o seu site já tem a pergunta e uma b
 ### De onde tirar as perguntas certas
 
 1. **Do seu dia a dia.** O que os pacientes ou clientes perguntam no WhatsApp, na recepção ou na primeira consulta? Essas são as melhores, porque são reais.
-2. **Do próprio Google.** Busque o serviço + cidade e olhe a caixa "As pessoas também perguntam". Anote as que fazem sentido pra você.
+2. **Do próprio Google.** Busque o serviço + cidade e olhe a caixa "As pessoas também perguntam". Anote as que fazem sentido para você.
 3. **Das IAs.** Use o prompt abaixo.
 
 ```prompt Levantar perguntas reais
@@ -35,7 +35,7 @@ Escreva cada pergunta do jeito que uma pessoa leiga perguntaria, em primeira pes
 ### Onde colocar o FAQ
 
 - **Em cada página de serviço**: 4 a 8 perguntas sobre aquele serviço (bloco 7 do modelo do capítulo 5).
-- **Numa página geral "Dúvidas frequentes"**: perguntas que valem pra todos os serviços (agendamento, convênios, online, localização).
+- **Numa página geral "Dúvidas frequentes"**: perguntas que valem para todos os serviços (agendamento, convênios, online, localização).
 
 ## Parte 2: O schema
 
@@ -49,7 +49,7 @@ Desde 2023, o Google **mostra os FAQs "expandidos" no resultado da busca só par
 
 ### Os três blocos de schema que você vai usar
 
-| Bloco | Onde colocar | Pra quê |
+| Bloco | Onde colocar | Para quê |
 |---|---|---|
 | **Negócio + profissional** | Na página inicial (ou em todas as páginas) | Diz quem você é, o que faz e onde atende |
 | **FAQ** | Em cada página que tem perguntas frequentes | Liga cada pergunta à resposta |
@@ -97,7 +97,7 @@ Desde 2023, o Google **mostra os FAQs "expandidos" no resultado da busca só par
 
 ### Modelo 1B: Psicólogo(a)
 
-O schema não tem um tipo específico "psicólogo". O mais adequado é usar `MedicalBusiness` pro consultório e `Person` pra você.
+O schema não tem um tipo específico "psicólogo". O mais adequado é usar `MedicalBusiness` para o consultório e `Person` para você.
 
 ```copiar Schema: Psicólogo(a) (página inicial)
 <script type="application/ld+json">
@@ -169,7 +169,7 @@ O schema não tem um tipo específico "psicólogo". O mais adequado é usar `Med
 
 > **Sobre o `sameAs`:** é a lista de perfis seus em outros sites. É o jeito mais direto de dizer à IA "o Instagram X, o LinkedIn Y e este site são da mesma pessoa". Inclua só perfis que são realmente seus e que estão ativos.
 
-### Modelo 2: FAQ (vale pras três profissões)
+### Modelo 2: FAQ (vale para as três profissões)
 
 Use as **mesmas perguntas e respostas que aparecem visíveis na página**. Colocar no schema perguntas que não estão no texto é contra as regras do Google.
 
@@ -208,7 +208,7 @@ Use as **mesmas perguntas e respostas que aparecem visíveis na página**. Coloc
   "@type": "Service",
   "name": "[Serviço] em [Cidade]",
   "serviceType": "[Serviço]",
-  "description": "[O mesmo primeiro parágrafo da página: o que é e pra quem é]",
+  "description": "[O mesmo primeiro parágrafo da página: o que é e para quem é]",
   "areaServed": "[Cidade]",
   "provider": {
     "@type": "Person",
@@ -220,9 +220,9 @@ Use as **mesmas perguntas e respostas que aparecem visíveis na página**. Coloc
 </script>
 ```
 
-### Prompt pra gerar o schema preenchido
+### Prompt para gerar o schema preenchido
 
-Em vez de preencher à mão, você pode passar seus dados pra IA e pedir o código pronto. **Valide sempre** depois (passo a seguir).
+Em vez de preencher à mão, você pode passar seus dados para a IA e pedir o código pronto. **Valide sempre** depois (passo a seguir).
 
 ```prompt Gerar schema preenchido
 Gere um bloco de schema JSON-LD (dentro de <script type="application/ld+json">) do tipo [Dentist / MedicalBusiness / LegalService] com estes dados reais:
@@ -241,28 +241,28 @@ Use apenas propriedades válidas do schema.org. Não invente dados: se faltar al
 ### Como validar
 
 1. Acesse **validator.schema.org**, cole o código (ou o endereço da página já publicada) e clique em executar. O objetivo é **zero erros**. Avisos (warnings) são aceitáveis.
-2. Acesse **search.google.com/test/rich-results** e teste o endereço da página publicada, pra ver se o Google lê os dados.
+2. Acesse **search.google.com/test/rich-results** e teste o endereço da página publicada, para ver se o Google lê os dados.
 
 ### Como instalar no WordPress
 
 1. Instale o plugin gratuito **WPCode** (Plugins → Adicionar novo → busque "WPCode").
-2. Pro schema do negócio (página inicial): em **Code Snippets → Header & Footer**, cole o código no campo **Header** e salve. Ele passa a valer pro site todo, o que está correto pra esse bloco.
-3. Pro FAQ e o serviço: edite a página do serviço e, no editor de blocos, adicione um bloco **"HTML personalizado"** no fim da página com o código. Ou use o recurso de snippet por página do WPCode.
+2. Para o schema do negócio (página inicial): em **Code Snippets → Header & Footer**, cole o código no campo **Header** e salve. Ele passa a valer para o site todo, o que está correto para esse bloco.
+3. Para o FAQ e o serviço: edite a página do serviço e, no editor de blocos, adicione um bloco **"HTML personalizado"** no fim da página com o código. Ou use o recurso de snippet por página do WPCode.
 4. Se você usa **Yoast** ou **Rank Math**, eles já geram parte do schema. Mantenha o deles e acrescente o seu FAQ. Se aparecerem **dois blocos do mesmo tipo** no validador, remova um.
 
 ### Como instalar no Wix
 
 1. Abra o editor, vá na página desejada e clique em **Configurações da página → SEO avançado → Marcação de dados estruturados**.
 2. Clique em **Adicionar nova marcação**, cole **só o conteúdo entre as chaves** (sem as linhas `<script>` e `</script>`) e salve.
-3. Repita pra cada página com FAQ ou serviço.
+3. Repita para cada página com FAQ ou serviço.
 4. Publique o site e valide.
 
-> **Outras plataformas:** procure por "código no cabeçalho", "custom code" ou "dados estruturados" nas configurações. Se não encontrar, mande os blocos pro seu webdesigner com a instrução "inserir no `<head>` da página X".
+> **Outras plataformas:** procure por "código no cabeçalho", "custom code" ou "dados estruturados" nas configurações. Se não encontrar, mande os blocos para o seu webdesigner com a instrução "inserir no `<head>` da página X".
 
 ## Checklist do capítulo
 
 - [ ] Levantei pelo menos 15 perguntas reais dos meus pacientes ou clientes
-- [ ] Escrevi de 4 a 8 perguntas e respostas pra cada página de serviço
+- [ ] Escrevi de 4 a 8 perguntas e respostas para cada página de serviço
 - [ ] Criei (ou atualizei) a página geral de dúvidas frequentes
 - [ ] Preenchi e instalei o schema do negócio + profissional na página inicial
 - [ ] Instalei o schema de FAQ em cada página que tem perguntas frequentes

@@ -1,19 +1,19 @@
-# Tabela de impacto × esforço e relatório pro webdesigner
+# Tabela de impacto × esforço e relatório para o webdesigner
 
-Você terminou o diagnóstico. Agora, a parte que transforma a lista de problemas em resultado: **decidir o que fazer primeiro** e **delegar com clareza** o que não dá pra fazer sozinho.
+Você terminou o diagnóstico. Agora, a parte que transforma a lista de problemas em resultado: **decidir o que fazer primeiro** e **delegar com clareza** o que não dá para fazer sozinho.
 
 ## A matriz impacto × esforço
 
-Cada erro tem um **impacto** (quanto ele atrapalha sua visibilidade) e um **esforço** (quanto trabalho dá pra corrigir). Cruzando os dois, você tem quatro grupos:
+Cada erro tem um **impacto** (quanto ele atrapalha sua visibilidade) e um **esforço** (quanto trabalho dá para corrigir). Cruzando os dois, você tem quatro grupos:
 
 | | **Esforço baixo** | **Esforço alto** |
 |---|---|---|
 | **Impacto alto** | 🟢 **FAÇA HOJE.** Ganho rápido | 🟡 **PLANEJE.** Vale o investimento |
-| **Impacto baixo** | 🔵 **QUANDO SOBRAR TEMPO.** Rápido, mas muda pouco | ⚪ **DEIXE PRA DEPOIS.** Ou nem faça |
+| **Impacto baixo** | 🔵 **QUANDO SOBRAR TEMPO.** Rápido, mas muda pouco | ⚪ **DEIXE PARA DEPOIS.** Ou nem faça |
 
 ## Classificação dos 20 erros
 
-Esta é a classificação típica pra um site de consultório ou escritório. Ajuste se o seu caso for diferente: por exemplo, se o seu site inteiro está com "noindex", o erro 2 é a prioridade absoluta.
+Esta é a classificação típica para um site de consultório ou escritório. Ajuste se o seu caso for diferente: por exemplo, se o seu site inteiro está com "noindex", o erro 2 é a prioridade absoluta.
 
 | Nº | Erro | Impacto | Esforço | Grupo |
 |---|---|---|---|---|
@@ -42,9 +42,9 @@ Esta é a classificação típica pra um site de consultório ou escritório. Aj
 
 1. **Hoje à tarde (o resto do dia da auditoria):** corrija todos os 🟢 que você mesmo consegue.
 2. **Nas próximas 2 semanas:** os 🟡 de conteúdo (páginas por serviço, FAQ, páginas rasas) são com você. Use uma ou duas horas por dia.
-3. **Hoje mesmo, em paralelo:** mande o relatório abaixo pro webdesigner com os 🟡 técnicos (velocidade, duplicidade, layout, schema, se você não for instalar).
+3. **Hoje mesmo, em paralelo:** mande o relatório abaixo para o webdesigner com os 🟡 técnicos (velocidade, duplicidade, layout, schema, se você não for instalar).
 
-## Relatório pronto pro webdesigner
+## Relatório pronto para o webdesigner
 
 Copie, preencha só os erros que você **encontrou** e apague os outros. Inclua prints sempre que puder: eles economizam dias de troca de mensagem.
 
@@ -70,12 +70,12 @@ CONFIRMAÇÕES QUE PRECISO
 [ ] O certificado SSL está ativo e renova automaticamente.
 
 Prazo desejado: [data].
-Depois das correções, vou rodar de novo o PageSpeed e o validador de schema pra conferir. Obrigado(a)!
+Depois das correções, vou rodar de novo o PageSpeed e o validador de schema para conferir. Obrigado(a)!
 ```
 
-## Prompt pra transformar sua planilha em plano
+## Prompt para transformar sua planilha em plano
 
-Se você preencheu a planilha da auditoria, use este prompt pra montar o cronograma:
+Se você preencheu a planilha da auditoria, use este prompt para montar o cronograma:
 
 ```prompt Plano de correção a partir da auditoria
 Fiz uma auditoria de SEO no site do meu consultório/escritório. Esta é minha planilha com os erros encontrados:
@@ -98,7 +98,7 @@ Seja prático. Não invente funcionalidades da minha plataforma: se não tiver c
 
 - [ ] Classifiquei os erros que encontrei na matriz impacto × esforço
 - [ ] Corrigi hoje todos os itens 🟢 que dependem só de mim
-- [ ] Preenchi o relatório com os itens que vão pro webdesigner
+- [ ] Preenchi o relatório com os itens que vão para o webdesigner
 - [ ] Anexei prints e enviei o relatório
 - [ ] Coloquei na agenda os itens 🟡 de conteúdo das próximas 2 semanas
 - [ ] Agendei a próxima auditoria para daqui a 6 meses
