@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { memo, useEffect, useRef, useState, type RefObject } from "react";
 
 function ler(k: string): string | null {
   try {
@@ -89,7 +89,7 @@ export function Interativo({ html, chave, total }: { html: string; chave: string
           </span>
         </div>
       )}
-      <div ref={ref} className="prose" dangerouslySetInnerHTML={{ __html: html + '<div class="fim-capitulo"></div>' }} />
+      <Prosa html={html} raiz={ref} />
     </>
   );
 }
@@ -127,3 +127,9 @@ export function MarcasLidas({ chaves }: { chaves: string[] }) {
   }, [chaves]);
   return null;
 }
+
+// O HTML do capítulo fica num componente memorizado: atualizar o contador do checklist
+// não pode redesenhar o texto (isso apagaria as marcações feitas na tela).
+const Prosa = memo(function Prosa({ html, raiz }: { html: string; raiz: RefObject<HTMLDivElement | null> }) {
+  return <div ref={raiz} className="prose" dangerouslySetInnerHTML={{ __html: html + '<div class="fim-capitulo"></div>' }} />;
+});
