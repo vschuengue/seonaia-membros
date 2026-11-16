@@ -157,3 +157,9 @@ article { padding-top: 32px; }
   .pager-link.next { text-align: left; }
   .copy-head { flex-wrap: wrap; }
 }
+
+/* Prompts em fonte normal (mais legível); modelos em monoespaçada menor. */
+.copy-prompt pre code { font-family: var(--sans); font-size: 16px; line-height: 1.55; }
+.copy-copiar pre code { font-size: 14px; line-height: 1.5; }
+.checklist-status { position: static; }
+.copy-block pre, .prose pre.code { line-height: 1.5; font-size: 15px; }
