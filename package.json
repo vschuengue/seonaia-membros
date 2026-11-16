@@ -1,0 +1,31 @@
+{
+  "name": "seonaia-membros",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/build-content.mjs && next dev",
+    "build": "node scripts/build-content.mjs && next build",
+    "start": "next start",
+    "content": "node scripts/build-content.mjs",
+    "typecheck": "node scripts/build-content.mjs && tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "bcryptjs": "^3.0.3",
+    "marked": "^18.2.0",
+    "next": "^15.5.29",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "resend": "^6.38.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "typescript": "^5.9.3"
+  }
+}
