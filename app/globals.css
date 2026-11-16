@@ -1,11 +1,15 @@
 :root {
-  --bg: #0b0d12;
-  --bg-2: #11141b;
-  --card: #161a23;
-  --line: #262b37;
-  --text: #e9ebf1;
-  --muted: #9aa1b2;
-  --c: #7c9cff;
+  /* Identidade SEO na IA: roxo profundo #32025C, violeta #6A01E2, roxo vivo #8D1EFC, branco */
+  --marca: #32025c;
+  --violeta: #6a01e2;
+  --roxo: #8d1efc;
+  --bg: #12021f;
+  --bg-2: #1a0530;
+  --card: #210839;
+  --line: #3a1a5c;
+  --text: #f2ecfb;
+  --muted: #b9a8d4;
+  --c: #b57bff;
   --ok: #5fd4a8;
   --danger: #ff7a7a;
   --radius: 16px;
@@ -18,7 +22,7 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
-  background: radial-gradient(1200px 600px at 10% -10%, #1a2140 0%, transparent 60%), var(--bg);
+  background: radial-gradient(1100px 620px at 100% -10%, #6a01e266 0%, transparent 60%), radial-gradient(900px 500px at -10% 0%, #32025c 0%, transparent 70%), var(--bg);
   background-attachment: fixed;
   color: var(--text);
   font-family: var(--sans);
@@ -37,13 +41,13 @@ h1 { font-size: clamp(30px, 6vw, 44px); margin: 0 0 12px; }
 .shell, .reader { max-width: 760px; margin: 0 auto; padding: 0 16px 80px; }
 
 .topbar { display: flex; justify-content: space-between; align-items: center; padding: 18px 0; gap: 12px; }
-.topbar.sticky { position: sticky; top: 0; z-index: 10; background: rgba(11, 13, 18, .88); backdrop-filter: blur(10px); margin: 0 -16px; padding: 14px 16px; border-bottom: 1px solid var(--line); }
+.topbar.sticky { position: sticky; top: 0; z-index: 10; background: rgba(18, 2, 31, .88); backdrop-filter: blur(10px); margin: 0 -16px; padding: 14px 16px; border-bottom: 1px solid var(--line); }
 .brand { font-weight: 800; color: #fff; text-decoration: none; letter-spacing: -0.01em; }
 .link-btn { background: none; border: 0; color: var(--muted); font: inherit; font-size: 15px; cursor: pointer; padding: 8px; }
 
 .hero { padding: 28px 0 24px; }
 .btn {
-  display: inline-block; margin-top: 16px; background: var(--c); color: #0b0d12; font-weight: 800; font-size: 17px;
+  display: inline-block; margin-top: 16px; background: linear-gradient(135deg, var(--violeta), var(--roxo)); color: #fff; font-weight: 800; font-size: 17px;
   border: 0; border-radius: 12px; padding: 15px 22px; text-decoration: none; cursor: pointer; text-align: center;
 }
 .btn:hover { filter: brightness(1.08); }
@@ -105,15 +109,15 @@ article { padding-top: 32px; }
 
 .copy-block { margin: 24px 0; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--bg-2); }
 .copy-head { display: flex; align-items: center; gap: 10px; padding: 10px 12px 10px 16px; border-bottom: 1px solid var(--line); background: var(--card); }
-.copy-tag { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; color: #0b0d12; background: var(--c); padding: 3px 8px; border-radius: 6px; }
+.copy-tag { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; color: #fff; background: var(--c); padding: 3px 8px; border-radius: 6px; }
 .copy-prompt .copy-tag { background: var(--ok); }
 .copy-title { flex: 1; font-size: 15px; font-weight: 700; color: #fff; line-height: 1.3; }
 .copy-btn { border: 1px solid var(--line); background: var(--bg); color: var(--text); font: inherit; font-size: 14px; font-weight: 700; padding: 8px 14px; border-radius: 9px; cursor: pointer; white-space: nowrap; }
 .copy-btn:hover { border-color: var(--c); }
-.copy-btn.ok { background: var(--ok); color: #0b0d12; border-color: var(--ok); }
+.copy-btn.ok { background: var(--ok); color: #fff; border-color: var(--ok); }
 .copy-block pre { padding: 16px; max-height: 520px; overflow: auto; }
 
-.checklist-status { position: sticky; top: 62px; z-index: 5; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 14px; color: var(--muted); background: rgba(17, 20, 27, .92); backdrop-filter: blur(8px); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 16px 0 8px; }
+.checklist-status { position: sticky; top: 62px; z-index: 5; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 14px; color: var(--muted); background: rgba(26, 5, 48, .92); backdrop-filter: blur(8px); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 16px 0 8px; }
 .mini-bar { flex: 1; min-width: 80px; height: 6px; background: var(--line); border-radius: 99px; overflow: hidden; }
 .mini-bar span { display: block; height: 100%; background: var(--ok); transition: width .2s; }
 .prose ul.checklist { list-style: none; padding: 0; display: grid; gap: 8px; }
@@ -121,7 +125,7 @@ article { padding-top: 32px; }
 .prose li.task label > span > p { margin: 0; }
 .prose li.task input { appearance: none; flex: none; width: 24px; height: 24px; margin-top: 3px; border: 2px solid var(--muted); border-radius: 7px; cursor: pointer; display: grid; place-content: center; }
 .prose li.task input:checked { background: var(--ok); border-color: var(--ok); }
-.prose li.task input:checked::after { content: "✓"; color: #0b0d12; font-weight: 900; font-size: 15px; }
+.prose li.task input:checked::after { content: "✓"; color: #fff; font-weight: 900; font-size: 15px; }
 .prose li.task.done span { color: var(--muted); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--muted) 60%, transparent); }
 
 .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 56px; }
@@ -163,3 +167,14 @@ article { padding-top: 32px; }
 .copy-copiar pre code { font-size: 14px; line-height: 1.5; }
 .checklist-status { position: static; }
 .copy-block pre, .prose pre.code { line-height: 1.5; font-size: 15px; }
+
+/* Marca */
+.logo { display: block; height: 30px; width: auto; }
+.auth .logo { height: 34px; }
+.card-capa { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 12px; margin-bottom: 16px; }
+.copy-tag { color: #fff; }
+.copy-btn.ok, .prose li.task input:checked::after { color: #12021f; }
+.btn:hover { filter: brightness(1.12); }
+.copy-tag { background: var(--violeta); }
+.copy-prompt .copy-tag { background: var(--roxo); }
+.pill-produto { color: var(--c); }

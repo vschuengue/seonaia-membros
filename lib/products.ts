@@ -8,32 +8,36 @@ export type Product = {
   nomeCurto: string;
   subtitulo: string;
   cor: string;
+  capa: string;
 };
 
 export const PRODUCTS: Product[] = [
   {
     slug: "seo-geo",
+    capa: "/capas/seo-geo.png",
     caktoId: "5ad08ec9-b488-4680-98a3-99b7eb825f11",
     nome: "SEO+GEO para Profissionais Liberais",
     nomeCurto: "SEO+GEO",
     subtitulo: "Site pronto pro Google e pras IAs em 7 dias",
-    cor: "#7c9cff",
+    cor: "#b57bff",
   },
   {
     slug: "auditoria",
+    capa: "/capas/auditoria.png",
     caktoId: "8e985055-3cfb-4a47-be09-7aff63b53f5e",
     nome: "Auditoria de Site em 1 Dia",
     nomeCurto: "Auditoria",
     subtitulo: "Os 20 erros que escondem seu site",
-    cor: "#5fd4a8",
+    cor: "#c99bff",
   },
   {
     slug: "paginas",
+    capa: "/capas/paginas.png",
     caktoId: "25266e55-ec72-4de5-b864-c1243dfbc1a6",
     nome: "Páginas Prontas p/ Dentista, Psicólogo e Advogado",
     nomeCurto: "Páginas Prontas",
     subtitulo: "Textos prontos pra copiar e colar hoje",
-    cor: "#ffb86b",
+    cor: "#a78bfa",
   },
 ];
 

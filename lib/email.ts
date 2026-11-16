@@ -8,24 +8,24 @@ function esc(s: string): string {
 }
 
 function layout(titulo: string, corpo: string): string {
-  return `<!doctype html><html lang="pt-BR"><body style="margin:0;background:#0b0d12;padding:32px 16px;font-family:Arial,Helvetica,sans-serif;color:#e8eaf0">
+  return `<!doctype html><html lang="pt-BR"><body style="margin:0;background:#12021f;padding:32px 16px;font-family:Arial,Helvetica,sans-serif;color:#e8eaf0">
 <table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr><td align="center">
-<table role="presentation" width="100%" style="max-width:560px;background:#141821;border-radius:16px;padding:32px" cellspacing="0" cellpadding="0"><tr><td>
-<p style="margin:0 0 8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#7c9cff">SEO na IA</p>
+<table role="presentation" width="100%" style="max-width:560px;background:#32025c;border-radius:16px;padding:32px" cellspacing="0" cellpadding="0"><tr><td>
+<p style="margin:0 0 16px"><img src="${esc(env.appUrl)}/marca/logo-branca.png" alt="SEO na IA" width="160" height="41" style="display:block;border:0"></p>
 <h1 style="margin:0 0 20px;font-size:24px;line-height:1.3;color:#ffffff">${titulo}</h1>
 ${corpo}
-<p style="margin:28px 0 0;font-size:13px;color:#8a90a2">Guarde este e-mail. Se perder a senha, gere uma nova em ${esc(env.appUrl)}/primeiro-acesso usando o e-mail da compra e o número do pedido.</p>
+<p style="margin:28px 0 0;font-size:13px;color:#c9b8e6">Guarde este e-mail. Se perder a senha, gere uma nova em ${esc(env.appUrl)}/primeiro-acesso usando o e-mail da compra e o número do pedido.</p>
 </td></tr></table></td></tr></table></body></html>`;
 }
 
 function botao(url: string, texto: string): string {
-  return `<p style="margin:24px 0"><a href="${esc(url)}" style="display:inline-block;background:#7c9cff;color:#0b0d12;text-decoration:none;font-weight:bold;padding:14px 24px;border-radius:10px">${esc(texto)}</a></p>`;
+  return `<p style="margin:24px 0"><a href="${esc(url)}" style="display:inline-block;background:#8d1efc;color:#ffffff;text-decoration:none;font-weight:bold;padding:14px 24px;border-radius:10px">${esc(texto)}</a></p>`;
 }
 
 function credenciais(email: string, senha: string): string {
-  return `<table role="presentation" cellspacing="0" cellpadding="0" style="width:100%;background:#0b0d12;border-radius:12px;padding:16px;margin:8px 0">
-<tr><td style="padding:6px 16px;color:#8a90a2;font-size:14px">Login</td><td style="padding:6px 16px;font-size:16px;color:#fff"><strong>${esc(email)}</strong></td></tr>
-<tr><td style="padding:6px 16px;color:#8a90a2;font-size:14px">Senha</td><td style="padding:6px 16px;font-size:18px;color:#fff;font-family:Menlo,Consolas,monospace"><strong>${esc(senha)}</strong></td></tr></table>`;
+  return `<table role="presentation" cellspacing="0" cellpadding="0" style="width:100%;background:#1a0530;border-radius:12px;padding:16px;margin:8px 0">
+<tr><td style="padding:6px 16px;color:#c9b8e6;font-size:14px">Login</td><td style="padding:6px 16px;font-size:16px;color:#fff"><strong>${esc(email)}</strong></td></tr>
+<tr><td style="padding:6px 16px;color:#c9b8e6;font-size:14px">Senha</td><td style="padding:6px 16px;font-size:18px;color:#fff;font-family:Menlo,Consolas,monospace"><strong>${esc(senha)}</strong></td></tr></table>`;
 }
 
 async function enviar(para: string, assunto: string, html: string): Promise<void> {

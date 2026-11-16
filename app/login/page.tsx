@@ -16,7 +16,7 @@ export default async function Login({ searchParams }: { searchParams: Promise<{ 
   return (
     <main className="auth">
       <div className="auth-box">
-        <span className="brand">SEO na IA</span>
+        <img className="logo" src="/marca/logo-branca.png" alt="SEO na IA" width={705} height={180} />
         <h1>Entrar nos seus guias</h1>
         <p className="muted">Use o e-mail da compra e a senha que chegou no seu e-mail.</p>
         {erro && <p className="alert" role="alert">{erro}</p>}

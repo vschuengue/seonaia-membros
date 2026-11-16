@@ -12,7 +12,7 @@ export default async function Inicio() {
   return (
     <main className="shell">
       <header className="topbar">
-        <span className="brand">SEO na IA</span>
+        <img className="logo" src="/marca/logo-branca.png" alt="SEO na IA" width={705} height={180} />
         <form action="/api/logout" method="post">
           <button className="link-btn" type="submit">Sair</button>
         </form>
@@ -35,6 +35,7 @@ export default async function Inicio() {
             const caps = GUIAS[p.slug] ?? [];
             return (
               <Link key={p.slug} href={`/p/${p.slug}`} className="card" style={{ ["--c" as string]: p.cor }}>
+                <img className="card-capa" src={p.capa} alt={`Capa do guia ${p.nome}`} width={1080} height={1080} />
                 <span className="card-tag">{caps.length} capítulos</span>
                 <h2>{p.nome}</h2>
                 <p>{p.subtitulo}</p>

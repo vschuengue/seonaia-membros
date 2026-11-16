@@ -14,6 +14,7 @@ export default async function Guia({ params }: { params: Promise<{ produto: stri
         <Link href="/" className="brand">← Biblioteca</Link>
       </header>
       <section className="hero">
+        <img className="card-capa" style={{ maxWidth: 220 }} src={produto.capa} alt="" width={1080} height={1080} />
         <p className="eyebrow">Guia</p>
         <h1>{produto.nome}</h1>
         <p className="muted">{produto.subtitulo}</p>

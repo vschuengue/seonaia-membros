@@ -22,7 +22,7 @@ export default async function PrimeiroAcesso({
     return (
       <main className="auth">
         <div className="auth-box">
-          <span className="brand">SEO na IA</span>
+          <img className="logo" src="/marca/logo-branca.png" alt="SEO na IA" width={705} height={180} />
           <h1>Pronto! Seu acesso foi gerado.</h1>
           <p className="muted">Anote a senha abaixo. Ela aparece só agora{q.email ? " e também foi enviada pro seu e-mail" : ""}.</p>
           <p className="senha">{senha}</p>
@@ -36,7 +36,7 @@ export default async function PrimeiroAcesso({
   return (
     <main className="auth">
       <div className="auth-box">
-        <span className="brand">SEO na IA</span>
+        <img className="logo" src="/marca/logo-branca.png" alt="SEO na IA" width={705} height={180} />
         <h1>Primeiro acesso</h1>
         <p className="muted">
           Comprou e não recebeu a senha, ou perdeu? Digite o e-mail usado na compra e o número do pedido que está no
