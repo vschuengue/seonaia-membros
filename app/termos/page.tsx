@@ -16,7 +16,7 @@ export default function Termos() {
       <h3>4. Resultados</h3>
       <p>O conteúdo é educativo. Resultados de posicionamento no Google e de citação por inteligências artificiais dependem da aplicação do método, da concorrência e de fatores que não controlamos, e não são garantidos. O guia não substitui orientação jurídica nem a consulta às normas do seu conselho profissional.</p>
       <h3>5. Contato</h3>
-      <p>Pelo e-mail de suporte informado no comprovante de compra da Cakto.</p>
+      <p>Pelo e-mail <a href="mailto:contato@seonaia.com.br">contato@seonaia.com.br</a>.</p>
     </PaginaLegal>
   );
 }

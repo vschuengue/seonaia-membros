@@ -211,7 +211,7 @@ export default function PaginaDeVendas() {
         <div className="lp-w lp-estreito">
           <h2>Quem criou o método</h2>
           <p>
-            <strong>Vanessa Schuengue</strong> é gerente de marketing numa agência e trabalha com SEO, GEO e criação de sites. Num projeto
+            <strong>Vanessa Soares</strong> é especialista em SEO e SGE e trabalha com estratégia de busca e criação de sites. Num projeto
             recente, ela criou do zero o site de um escritório de contabilidade, já preparado pro Google e pras IAs.
           </p>
           <div className="lp-caso">
@@ -290,7 +290,7 @@ export default function PaginaDeVendas() {
         <div className="lp-w">
           <img src="/marca/logo-branca.png" alt="SEO na IA" width={141} height={36} />
           <p>
-            <a href="/privacidade">Política de privacidade</a> · <a href="/termos">Termos de uso</a> · <a href="/primeiro-acesso">Já comprei: acessar</a>
+            <a href="/privacidade">Política de privacidade</a> · <a href="/termos">Termos de uso</a> · <a href="/primeiro-acesso">Já comprei: acessar</a> · <a href="mailto:contato@seonaia.com.br">contato@seonaia.com.br</a>
           </p>
           <p className="lp-legal">
             Este site não faz parte do Facebook, do Google ou da OpenAI, nem é endossado por essas empresas. Os resultados dependem da

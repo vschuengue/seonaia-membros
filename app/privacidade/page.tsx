@@ -14,7 +14,7 @@ export default function Privacidade() {
       <h3>3. Com quem compartilhamos</h3>
       <p>Com prestadores necessários para o funcionamento do serviço: Cakto (pagamentos), Vercel (hospedagem), Supabase (banco de dados), Resend (envio de e-mails) e Meta (medição de anúncios). Não vendemos seus dados.</p>
       <h3>4. Seus direitos (LGPD)</h3>
-      <p>Você pode pedir acesso, correção ou exclusão dos seus dados, ou revogar consentimentos, entrando em contato pelo e-mail de suporte informado no comprovante de compra da Cakto.</p>
+      <p>Você pode pedir acesso, correção ou exclusão dos seus dados, ou revogar consentimentos, escrevendo para <a href="mailto:contato@seonaia.com.br">contato@seonaia.com.br</a>.</p>
       <h3>5. Cookies</h3>
       <p>Usamos um cookie essencial para manter você conectado na área de membros e, nesta página, cookies de medição do Meta.</p>
     </PaginaLegal>
