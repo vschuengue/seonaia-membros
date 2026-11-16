@@ -211,7 +211,7 @@ export default function PaginaDeVendas() {
         <div className="lp-w lp-estreito">
           <h2>Quem criou o método</h2>
           <p>
-            <strong>Vanessa Soares</strong> é especialista em SEO e SGE e trabalha com estratégia de busca e criação de sites. Num projeto
+            <strong>Vanessa Soares</strong> é especialista em SEO e GEO e trabalha com estratégia de busca e criação de sites. Num projeto
             recente, ela criou do zero o site de um escritório de contabilidade, já preparado pro Google e pras IAs.
           </p>
           <div className="lp-caso">
