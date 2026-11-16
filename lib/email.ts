@@ -39,7 +39,7 @@ export function emailBoasVindas(para: string, senha: string, produto: Product) {
   const corpo = `<p style="font-size:16px;line-height:1.6">Sua compra foi aprovada e o guia <strong>${esc(produto.nome)}</strong> já está liberado no seu app.</p>
 ${credenciais(para, senha)}
 ${botao(env.appUrl + "/login", "Acessar meu guia")}
-<p style="font-size:14px;line-height:1.6;color:#b4b9c7">Se você levou algum bônus junto no checkout, ele aparece no mesmo app em alguns instantes, com o mesmo login.</p>`;
+<p style="font-size:14px;line-height:1.6;color:#b4b9c7">Se você levou algum complemento junto no checkout, ele aparece no mesmo app em alguns instantes, com o mesmo login.</p>`;
   return enviar(para, "Seu acesso ao guia chegou", layout("Seu guia está liberado", corpo));
 }
 
